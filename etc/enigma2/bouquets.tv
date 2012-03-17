@@ -15,10 +15,10 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.dbe01.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.schweiz.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.kabel_deutschland.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.uk_tv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.skyuk.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.rai.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.sport.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.ned.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.xxx.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.favourites.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.LastScanned.tv
