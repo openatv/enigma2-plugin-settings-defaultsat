@@ -127,7 +127,7 @@ transponders
 	s 11727000:27500000:1:3:130:0:0
 /
 00820000:13ef:013e
-	s 11747000:27500000:0:3:130:0:0
+	s 11747000:27500000:0:3:130:0:0:1:2:0:2
 /
 00820000:14b4:fbff
 	s 11785000:29900000:0:3:130:0:0:1:2:0:2
@@ -153,7 +153,7 @@ transponders
 00820000:1964:013e
 	s 12015000:27500000:0:3:130:0:0:1:2:0:2
 /
-00820000:19c8:1ae3
+00820000:19c8:06cb
 	s 12034000:29900000:1:4:130:0:0
 /
 00820000:1a2c:fbff
@@ -213,10 +213,10 @@ transponders
 00820000:24b8:013e
 	s 12597000:27500000:1:3:130:0:0
 /
-00820000:251c:037b
+00820000:251c:1d46
 	s 12616000:29900000:0:4:130:0:0
 /
-00820000:2580:1c56
+00820000:2580:146e
 	s 12635000:29900000:1:4:130:0:0
 /
 00820000:25e4:02be
@@ -329,9 +329,6 @@ transponders
 /
 00c00000:03f0:0001
 	s 11318000:22000000:1:4:192:0:0
-/
-00c00000:000a:0085
-	s 11332000:22000000:0:3:192:0:0:1:2:0:2
 /
 00c00000:03f2:0001
 	s 11347000:22000000:1:2:192:0:0:1:2:0:2
@@ -680,7 +677,7 @@ c:0009ff,c:010a00,c:0309ff,f:0001,p:Sonstige Astra
 3330:00c00000:045b:0001:22:0
 LT1-OOE
 c:000410,c:010411,c:030410,f:0001,p:Österreich
-3339:00c00000:045b:0001:1:0
+3339:00c00000:045b:0001:22:0
 L-TV/TVM
 c:000852,c:010853,c:030852,f:0001,p:Österreich
 32d6:00c00000:045d:0001:1:0
@@ -761,7 +758,7 @@ c:0000ff,c:010100,c:020020,c:0300ff,f:0001,p:Pro7/Sat1
 4464:00c00000:0453:0001:1:0
 SAT.1 NRW
 c:0000ff,c:010100,c:020020,c:0300ff,f:0001,p:Pro7/Sat1
-1269:00c00000:03f7:0001:1:0
+1269:00c00000:03f7:0001:22:0
 Die Neue Zeit TV
 c:000dff,c:010e00,c:030dff,f:0001,p:Sonstige Astra
 003e:00c00000:0005:0085:1:0
@@ -905,9 +902,6 @@ c:0001ff,c:010200,c:020020,c:0301ff,f:0001,p:Sky Deutschland,C:0080
 0024:00c00000:0002:0085:22:0
 Syfy
 c:0005ff,c:010600,c:020020,c:0305ff,f:0001,p:Sky Deutschland,C:0080
-001b:00c00000:0004:0085:22:0
-RTL CRIME
-c:000dff,c:010e00,c:020020,c:030dff,f:0001,p:RTL,C:0080
 0017:00c00000:0004:0085:22:0
 Sky Krimi
 c:0005ff,c:010600,c:020020,c:0305ff,f:0001,p:Sky Deutschland,C:0080
@@ -959,15 +953,12 @@ c:0008ff,c:010900,c:020020,c:0308ff,f:0001,p:Sky Deutschland,C:0080
 0034:00c00000:0002:0085:22:0
 Spiegel Geschichte
 c:0009ff,c:010a00,c:020020,c:0309ff,f:0001,p:Sky Deutschland,C:0080
+0031:00c00000:0002:0085:22:0
+Spiegel TV Wissen
+c:0004ff,c:011b00,c:0304ff,f:0001,p:Sky Deutschland,C:0080
 0192:00c00000:000e:0085:22:0
 A&E
 c:0006ff,c:010700,c:0306ff,f:0001,p:Sky Deutschland,C:0080
-2ec3:00c00000:0411:0001:22:0
-RTL Living
-c:0002bc,c:0102c6,c:0302bc,f:0001,p:Sky Deutschland,C:0080
-001d:00c00000:0004:0085:22:0
-RTL Passion
-c:000eff,c:010f00,c:020020,c:030eff,f:0001,p:RTL,C:0080
 0196:00c00000:0004:0085:22:0
 Kinowelt TV
 c:0010ff,c:011100,c:0310ff,f:0001,p:Sky Deutschland,C:0080
@@ -1130,30 +1121,27 @@ c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
 0093:00c00000:0008:0085:25:0
 Sky 1 HD
 c:0003ff,c:020020,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
-0090:00c00000:0010:0085:25:0
+0090:00c00000:000e:0085:25:0
 Sky 1 +1 HD
-c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
+c:0009ff,c:0309ff,c:040503,f:0001,p:Sky Deutschland,C:0080
 007f:00c00000:000d:0085:25:0
 13th Street HD
 c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
 007e:00c00000:000c:0085:25:0
-Syfy HD
+SYFY HD
 c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-008c:00c00000:0009:0085:25:0
-RTL Crime HD
-c:0000ff,c:0300ff,c:040130,f:0001,p:Sky Deutschland,C:0080
-007c:00c00000:000a:0085:25:0
+007c:00c00000:000c:0085:25:0
 Fox HD
-c:000404,c:020020,c:030404,c:040403,f:0001,p:Sky Deutschland,C:0080
+c:0009ff,c:010503,c:0309ff,f:0001,p:Sky Deutschland,C:0080
 007b:00c00000:000b:0085:25:0
 TNT Serie HD
 c:0000ff,c:020020,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
 0088:00c00000:000e:0085:25:0
 TNT Comedy HD
 c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-0065:00c00000:000e:0085:25:0
+0065:00c00000:0009:0085:25:0
 Universal HD
-c:0005ff,c:020020,c:0305ff,c:040603,f:0001,p:Sky Deutschland,C:0080
+c:0005ff,c:010603,c:0305ff,f:0001,p:Sky Deutschland,C:0080
 006f:00c00000:000d:0085:25:0
 Disney Cinemagic HD
 c:0000ff,c:020020,c:0300ff,c:040104,f:0001,p:Sky Deutschland,C:0080
@@ -1172,9 +1160,9 @@ c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
 0071:00c00000:000b:0085:25:0
 History HD
 c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-0089:00c00000:000a:0085:25:0
+0089:00c00000:0010:0085:25:0
 Spiegel Geschichte HD
-c:0000ff,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
+c:0004ff,c:010503,c:0304ff,f:0001,p:Sky Deutschland,C:0080
 0080:00c00000:000e:0085:25:0
 E! Entertainm. HD
 c:0000ff,c:020020,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
@@ -1186,9 +1174,6 @@ Eurosport 1 HD.
 c:0002ff,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0084
 006d:00c00000:0009:0085:25:0
 Eurosport 2 HD
-c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
-007a:00c00000:000b:0085:25:0
-Sport1+ HD
 c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
 006c:00c00000:000c:0085:25:0
 Sky Sport News HD
@@ -1220,9 +1205,9 @@ c:000bff,c:020020,c:030bff,c:040c03,f:0001,p:Sky Deutschland,C:0080
 0148:00c00000:0010:0085:25:0
 Sky Sport 9 HD
 c:000aff,c:020020,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
-0152:00c00000:000a:0085:25:0
+0152:00c00000:0009:0085:25:0
 Sky Sport 10 HD
-c:000aff,c:010b03,c:020020,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
+c:000aff,c:020020,c:030aff,c:040b02,f:0001,p:Sky Deutschland,C:0080
 0102:00c00000:000e:0085:25:0
 Sky Sport 11 HD
 c:000bff,c:020020,c:030bff,c:040903,f:0001,p:Sky Deutschland,C:0080
@@ -1253,9 +1238,9 @@ c:0006ff,c:020020,c:0306ff,c:040703,f:0001,p:Sky Deutschland,C:0080
 0147:00c00000:0010:0085:25:0
 Sky Bundesliga 8 HD
 c:0009ff,c:020020,c:0309ff,c:040a03,f:0001,p:Sky Deutschland,C:0080
-0151:00c00000:000a:0085:25:0
+0151:00c00000:0009:0085:25:0
 Sky Bundesliga 9 HD
-c:0009ff,c:020020,c:0309ff,c:040a03,f:0001,p:Sky Deutschland,C:0080
+c:0009ff,c:020020,c:0309ff,c:040a02,f:0001,p:Sky Deutschland,C:0080
 0101:00c00000:000e:0085:25:0
 Sky Bundesliga 10 HD
 c:0007ff,c:020020,c:0307ff,c:040803,f:0001,p:Sky Deutschland,C:0080
@@ -1280,21 +1265,21 @@ c:000cff,c:020020,c:030cff,c:040d03,f:0001,p:Sky Deutschland,C:0080
 014a:00c00000:0010:0085:25:0
 Eurosport360HD 7
 c:000dff,c:020020,c:030dff,c:040e03,f:0001,p:Sky Deutschland,C:0080
-0154:00c00000:000a:0085:25:0
+0154:00c00000:0009:0085:25:0
 Eurosport360HD 8
-c:000dff,c:020020,c:030dff,c:040e03,f:0001,p:Sky Deutschland,C:0080
+c:000dff,c:030dff,c:040e03,f:0001,p:Sky Deutschland,C:0080
 0104:00c00000:000e:0085:25:0
 Eurosport360HD 9
 c:000eff,c:020020,c:030eff,c:040f03,f:0001,p:Sky Deutschland,C:0080
 1018:00c00000:0451:0035:25:0
 sportdigital HD
 c:00026c,c:0100a0,c:03026c,f:0001,p:AustriaSat,C:009f
-0079:00c00000:000e:0085:25:0
-BLUE MOVIE HD
-c:0003ff,c:020020,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
 0078:00c00000:000e:0085:25:0
 Sky Select HD
 c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+0079:00c00000:000e:0085:25:0
+BLUE MOVIE HD
+c:0003ff,c:020020,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
 132f:00c00000:03ef:0001:25:0
 ORF 1 HD
 c:000780,c:010781,c:020785,c:030780,f:0001,p:ORF,C:0099
@@ -1511,8 +1496,8 @@ c:0001f6,c:0101f7,c:0201fb,c:0301f6,c:0401f9,f:0001,p:SF DRS,C:0008
 4332:00820000:300c:013e:25:0
 SF zwei HD
 c:000200,c:010201,c:020205,c:030200,c:040203,f:0001,p:SF DRS,C:0008
-1260:00c00000:03f7:0001:1:0
-3+
+1260:00c00000:03f7:0001:25:0
+3+ HD
 c:0004ff,c:010500,c:0304ff,f:0001,p:SF DRS,C:0008
 4333:00820000:300c:013e:25:0
 RTS Un HD
@@ -1557,7 +1542,7 @@ c:000114,c:010214,c:030114,f:0001,p:Musik
 4Fun Dance
 c:000118,c:010218,c:030118,f:0001,p:Musik
 10dd:00820000:03e8:013e:22:0
-Nuta TV
+NUTA TV
 c:000206,c:0102c6,c:030206,f:0001,p:NC+
 3d63:00820000:2c88:013e:22:0
 EskaROCK TV
@@ -1565,24 +1550,18 @@ c:0000ae,c:010088,c:0300ae,f:0001,p:NC+
 3d57:00820000:2c88:013e:22:0
 VOX Music TV
 c:0000a2,c:010058,c:0300a2,f:0001,p:NC+
-10da:00820000:03e8:013e:22:0
-POLO TV
-c:000203,c:0102a8,c:020243,c:030203,f:0001,p:Musik
 429a:00820000:2bc0:013e:22:0
 Polo TV
 c:000203,c:010250,c:030203,f:0001,p:Polsat
-10e6:00820000:03e8:013e:22:0
-ESKA TV Extra
-c:00020f,c:010320,c:02024e,c:03020f,f:0001,p:Musik
 429b:00820000:2bc0:013e:22:0
 Eska TV Extra
 c:000151,c:010251,c:030151,f:0001,p:Polsat
 10e7:00820000:03e8:013e:22:0
 POWER TV
-c:000210,c:01032a,c:030210,f:0001,p:Musik
+c:000210,c:01032a,c:030210,f:0001,p:NC+
 10e8:00820000:03e8:013e:22:0
 TO!TV
-c:000211,c:010334,c:030211,f:0001,p:Musik
+c:000211,c:010334,c:030211,f:0001,p:NC+
 0deb:00820000:1af4:fbff:22:0
 Match Music
 c:000a28,c:010a29,c:030a28,f:0001,p:Musik
@@ -1607,15 +1586,12 @@ c:001770,c:011771,c:031770,f:0001,p:Musik
 43a4:00820000:2cec:013e:1:0
 Music Box Russia
 c:0007e0,c:010bc8,c:0307e0,f:0001,p:Musik
-1f54:00820000:319c:013e:1:0
-Gala TV
-c:0007da,c:0107e4,c:0307da,f:0001,p:Musik
-08a5:00820000:01f4:013e:25:0
-Radio Javan HD
-c:0007dd,c:010bc5,c:0307dd,f:0001,p:Musik
 1c25:00820000:1c20:013e:1:0
 KingTV SD
 c:000e6b,c:010e6c,c:030e6b,f:0001,p:Musik
+1ca5:00820000:332c:013e:1:0
+Gala TV
+c:000dcd,c:010e45,c:030dcd,f:0001,p:Musik
 6fff:00c00000:0436:0001:1:0
 MTV Music 24
 c:000fab,c:010fac,c:030fab,f:0001,p:MTV Network,C:003f
@@ -2972,6 +2948,9 @@ c:0000e1,c:0100eb,c:0300e1,f:0001,p:Hotbird Erotic,C:012f
 4222:00820000:3db8:013e:25:0
 Private TV HD
 c:000838,c:010839,c:030838,f:0001,p:Hotbird Erotic,C:012f
+1d25:00820000:2fa8:013e:1:0
+BRAZZERS TV Europe
+c:001b59,c:011b63,c:021b6d,c:031b59,f:0001,p:Nova,C:0001
 1009:00c00000:0451:0035:22:0
 Brazzers TV
 c:00025d,c:010091,c:03025d,f:0001,p:Canal Digitaal,C:001f
@@ -2981,6 +2960,15 @@ c:010093,c:03025f,f:0001,p:Canal Digitaal,C:001f
 0fe0:00c00000:0451:0035:22:0
 Vivid
 c:01005a,c:030234,f:0001,p:Canal Digitaal,C:001f
+1cbb:00820000:1ce8:0071:22:0
+Vivid Touch
+c:0001f9,c:01025d,c:0301f9,f:0001,p:Polsat,C:0026
+1f45:00820000:319c:013e:25:0
+VIVID RED HD
+c:0001fe,c:010208,c:0301fe,f:0001,p:Polsat,C:0025
+01d4:00820000:26ac:013f:22:0
+XXL
+c:000076,c:0100da,c:030076,f:0001,p:BIS,C:000e
 3154:00c00000:0459:0001:1:0
 Achtung Sexy TV
 c:0000e4,c:010148,c:0300ce,f:0001,p:Sonstige Astra
@@ -3041,9 +3029,6 @@ c:00081e,c:010c06,c:03081e,f:0001,p:Hotbird Sonst.
 36e5:00820000:06a4:013e:25:0
 SRF info HD
 c:00020a,c:01020b,c:02020f,c:03020a,c:04020d,f:0001,p:SF DRS
-1f4b:00820000:319c:013e:1:0
-Juwelo/health
-c:00023a,c:01023b,c:02023c,c:03023a,f:0001,p:Hotbird Deut.
 02d3:00820000:1b58:013e:1:0
 Sender Neu Jerusalem
 c:000159,c:01015a,c:030159,f:0001,p:Hotbird Sonst.
@@ -3083,9 +3068,6 @@ c:001c21,c:011c2b,c:031c83,f:0001,p:Hotbird Sonst.
 1c59:00820000:1c20:013e:1:0
 CNC-001
 c:000ce8,c:010ce7,c:030ce6,f:0001,p:Hotbird Sonst.
-000c:00820000:02bc:013e:1:0
-Daystar
-c:000899,c:01089a,c:030899,f:0001,p:Hotbird Sonst.
 0526:00820000:3d54:013e:25:0
 DAYSTAR HD
 c:000777,c:030777,c:040778,f:0001,p:Hotbird Sonst.
@@ -3141,7 +3123,7 @@ c:0013b1,c:0113b2,c:0313b1,f:0001,p:Hotbird Sonst.
 NEJAT TV
 c:001fa1,c:011fa2,c:031fa1,f:0001,p:Hotbird Erotic
 1c9f:00820000:332c:013e:1:0
-NHK World
+NHK WORLD-JPN
 c:000dc7,c:010e3f,c:030dc7,f:0001,p:Hotbird Sonst.
 1efb:00820000:21fc:025a:25:0
 PRESS TV HD
@@ -3207,7 +3189,7 @@ c:0000dd,c:0100f1,c:0300dd,f:0001,p:Hotbird Sonst.
 BVN
 c:0007db,c:010bc3,c:0307db,f:0001,p:Hotbird Sonst.
 10dc:00820000:03e8:013e:22:0
-MANGO 24
+Mango 24
 c:000205,c:0102bc,c:020245,c:030205,f:0001,p:NC+
 10e4:00820000:03e8:013e:22:0
 NTL
@@ -3266,21 +3248,18 @@ c:0000a7,c:01006c,c:0200a0,c:0300a7,f:0001,p:Hotbird Sonst.
 06b6:00820000:3138:013e:1:0
 8 TV RU
 c:00071c,c:010726,c:03071c,f:0001,p:Hotbird Sonst.
-0004:00820000:02bc:013e:1:0
-Armenia 1 TV
-c:000579,c:01057a,c:030579,f:0001,p:Hotbird Sonst.
 0006:00820000:02bc:013e:1:0
 Armenia TV
 c:000641,c:010642,c:030641,f:0001,p:Hotbird Sonst.
+0004:00820000:02bc:013e:1:0
+ARMPUB TV
+c:000579,c:01057a,c:030579,f:0001,p:Hotbird Sonst.
 29de:00820000:3cf0:013e:1:0
 BELARUS 24
 c:0000e4,c:0100f8,c:0300e4,f:0001,p:Hotbird Sonst.
 06ad:00820000:3138:013e:1:0
 BestMarket TV
 c:000398,c:0103a2,c:030398,f:0001,p:Hotbird Sonst.
-05de:00820000:2c24:013e:1:0
-CATV
-c:00139d,c:01139e,c:03139d,f:0001,p:Hotbird Sonst.
 089a:00820000:01f4:013e:1:0
 CBC_Azerbaycan
 c:0007d2,c:010bba,c:0307d2,f:0001,p:Hotbird Sonst.
@@ -3389,15 +3368,6 @@ c:0009d9,c:0109da,c:0309d9,f:0001,p:Hotbird Sonst.
 1c23:00820000:1c20:013e:1:0
 Cine Film
 c:000e57,c:010e58,c:030e57,f:0001,p:Hotbird Sonst.
-1c24:00820000:1c20:013e:1:0
-Cine Series
-c:000e61,c:010e62,c:030e61,f:0001,p:Hotbird Sonst.
-05f3:00820000:2c24:013e:1:0
-Class 1
-c:00146f,c:010101,c:031477,f:0001,p:Hotbird Sonst.
-39d2:00820000:1fa4:013e:1:0
-Erfan Halgheh
-c:001f55,c:011f56,c:031f55,f:0001,p:Hotbird Sonst.
 05e3:00820000:2c24:013e:1:0
 Face1
 c:0013cf,c:0113d0,c:0313cf,f:0001,p:Hotbird Sonst.
@@ -3410,24 +3380,15 @@ c:000c9c,c:010d00,c:030c9c,f:0001,p:Hotbird Sonst.
 2490:00820000:23f0:013f:1:0
 HODHOD FARSI
 c:000168,c:010169,c:030168,f:0001,p:Hotbird Sonst.
-05e6:00820000:2c24:013e:1:0
-Home and Health TV
-c:0013ed,c:0113ee,c:0313ed,f:0001,p:Hotbird Sonst.
 1eea:00820000:21fc:025a:22:0
 iFILM
 c:000474,c:010475,c:030474,f:0001,p:Hotbird Sonst.
-05e7:00820000:2c24:013e:1:0
-IR Cama 1 TV
-c:0013f7,c:0113f8,c:0313f7,f:0001,p:Hotbird Sonst.
 027c:00820000:3c8c:013e:1:0
 IRAN E ARYAEE TV
 c:000e1a,c:010e24,c:030e1a,f:0001,p:Hotbird Sonst.
 01f5:00820000:0384:013e:25:0
 Iran International HD
 c:001393,c:011394,c:031393,f:0001,p:Hotbird Sonst.
-05e0:00820000:2c24:013e:1:0
-IRAN TODAY
-c:0013b1,c:0113b2,c:0313b1,f:0001,p:Hotbird Sonst.
 1ef1:00820000:21fc:025a:22:0
 IRIB JAMEJAM
 c:0004ba,c:0104bb,c:0304ba,f:0001,p:Hotbird Sonst.
@@ -3453,7 +3414,7 @@ c:0013bb,c:0113bc,c:0313bb,f:0001,p:Hotbird Sonst.
 Lalish TV
 c:0007db,c:010bc3,c:0307db,f:0001,p:Hotbird Sonst.
 1cbb:00820000:332c:013e:1:0
-Manoto 1
+Manoto
 c:000de3,c:010e5b,c:030de3,f:0001,p:Hotbird Sonst.
 125f:00820000:3458:013e:1:0
 Mohabat
@@ -3461,15 +3422,15 @@ c:000172,c:010173,c:030172,f:0001,p:Hotbird Sonst.
 05df:00820000:2c24:013e:1:0
 Nat Geo Farsi
 c:0013a7,c:0113a8,c:0313a7,f:0001,p:Hotbird Sonst.
-39d5:00820000:1fa4:013e:1:0
-Payam Aramesh
-c:001f73,c:011f74,c:031f73,f:0001,p:Hotbird Sonst.
-1f71:00820000:319c:013e:1:0
+1343:00820000:33f4:013e:1:0
+Payam-E-Afghan
+c:00021c,c:01021d,c:03021c,f:0001,p:Hotbird Sonst.
+439e:00820000:2cec:013e:1:0
 Persian Star 1
-c:00132e,c:011338,c:03132e,f:0001,p:Hotbird Sonst.
-1f55:00820000:319c:013e:1:0
+c:0007da,c:010bc2,c:0307da,f:0001,p:Hotbird Sonst.
+43a1:00820000:2cec:013e:1:0
 Persian Star 2
-c:00083e,c:010848,c:03083e,f:0001,p:Hotbird Sonst.
+c:0007dd,c:010bc5,c:0307dd,f:0001,p:Hotbird Sonst.
 00e1:00820000:0065:0001:1:0
 Persian TV
 c:00067c,c:010654,c:03067c,f:0001,p:Hotbird Sonst.
@@ -3488,18 +3449,12 @@ c:001e79,c:011e83,c:031e79,f:0001,p:Hotbird Sonst.
 0e27:00820000:0708:00c8:25:0
 Simaye Azadi HD
 c:001856,c:011857,c:031856,f:0001,p:Hotbird Sonst.
-1f60:00820000:319c:013e:1:0
-TMTV
-c:000c8a,c:010c94,c:030c8a,f:0001,p:Hotbird Sonst.
 1376:00820000:33f4:013e:1:0
 TOHEED
 c:00044c,c:010456,c:03044c,f:0001,p:Hotbird Sonst.
 1d2f:00820000:2fa8:013e:1:0
 Velayat TV
 c:001edd,c:011ee7,c:031edd,f:0001,p:Hotbird Sonst.
-1ca5:00820000:332c:013e:1:0
-WE1 TV
-c:000dcd,c:010e45,c:030dcd,f:0001,p:Hotbird Sonst.
 2334:00820000:2328:013e:1:0
 CIRA TV
 c:000461,c:010462,c:031ffe,f:0001,p:Hotbird Sonst.
@@ -3524,9 +3479,6 @@ c:000411,c:010412,c:031ffe,f:0001,p:Hotbird Sonst.
 232b:00820000:2328:013e:1:0
 Ronahi TV
 c:000407,c:010408,c:031ffe,f:0001,p:Hotbird Sonst.
-44db:00820000:0001:0001:25:0
-Rudaw HD
-c:000403,c:0104cb,c:030403,f:0001,p:Hotbird Sonst.
 01fa:00820000:0384:013e:25:0
 RUDAW HD
 c:0013c5,c:0113c6,c:0313c5,f:0001,p:Hotbird Sonst.
@@ -3593,12 +3545,6 @@ c:000c9a,c:010cfe,c:030c9a,f:0001,p:Hotbird Sonst.
 0004:00820000:0578:013e:1:0
 KALSAN TV
 c:000191,c:010192,c:030191,f:0001,p:Hotbird Sonst.
-1f67:00820000:319c:013e:1:0
-Payam e Afghan TV
-c:000f46,c:010f50,c:030f46,f:0001,p:Hotbird Sonst.
-439b:00820000:2cec:013e:1:0
-Payam e Afghan TV
-c:0007d7,c:010bbf,c:0307d7,f:0001,p:Hotbird Sonst.
 2338:00820000:2328:013e:1:0
 SLNTV
 c:000489,c:01048a,c:031ffe,f:0001,p:Hotbird Sonst.
@@ -3608,18 +3554,12 @@ c:000bcd,c:010bce,c:030bcd,f:0001,p:Hotbird Sonst.
 0009:00820000:0578:013e:1:0
 Somali Cable
 c:000385,c:010387,c:030386,f:0001,p:Hotbird Sonst.
-1f6e:00820000:319c:013e:1:0
-Suryoyo Sat
-c:001202,c:01120c,c:031202,f:0001,p:Hotbird Sonst.
 439d:00820000:2cec:013e:1:0
 Suryoyo Sat
 c:0007d9,c:010bc1,c:0307d9,f:0001,p:Hotbird Sonst.
 000d:00820000:0578:013e:1:0
 Telefeshinka Caalamiga
 c:000083,c:010084,c:030083,f:0001,p:Hotbird Sonst.
-000a:00820000:0578:013e:25:0
-Telefeshinka Caalamiga HD
-c:0003e9,c:0103ea,c:0303e9,f:0001,p:Hotbird Sonst.
 43b9:00820000:2cec:013e:1:0
 TVK (09-11 CET)
 c:0007f5,c:010bdd,c:0307f5,f:0001,p:Hotbird Sonst.
@@ -3677,10 +3617,10 @@ c:001393,c:011395,c:031394,f:0001,p:Hotbird Sonst.
 38f1:00820000:2648:013e:22:0
 Canale Italia 2
 c:0109b1,c:0309b0,f:0001,p:Hotbird Sonst.
-2ca1:00820000:2580:1c56:1:0
+2ca1:00820000:2580:146e:1:0
 Class HorseTv
 c:0000ae,c:0101bf,c:0300ae,f:0001,p:Hotbird Sonst.
-2c2a:00820000:251c:037b:1:0
+2c2a:00820000:251c:1d46:1:0
 ClassTvModa
 c:0000aa,c:01019c,c:0300aa,f:0001,p:Hotbird Sonst.
 07e1:00820000:22c4:013e:22:0
@@ -3749,6 +3689,9 @@ c:0006eb,c:0106ec,c:0306eb,f:0001,p:Hotbird Sonst.
 0ff1:00820000:1e14:fbff:22:0
 Radio Radio TV
 c:00099c,c:01099d,c:03099c,f:0001,p:Hotbird Sonst.
+4251:00820000:3db8:013e:22:0
+RDS Social TV
+c:0014b6,c:0114b7,c:0314b6,f:0001,p:Hotbird Sonst.
 10e4:00820000:1644:fbff:1:0
 Real Time
 c:000a23,c:010a24,c:020a26,c:030a23,f:0001,p:Hotbird Sonst.
@@ -3764,9 +3707,6 @@ c:001433,c:011434,c:031433,f:0001,p:Hotbird Sonst.
 2fb2:00820000:2db4:013e:25:0
 Sposa TV HD
 c:000b5f,c:010b60,c:030b5f,f:0001,p:Hotbird Sonst.
-0ff6:00820000:1e14:fbff:22:0
-Starsat
-c:0009a6,c:0109a7,c:0309a6,f:0001,p:Hotbird Sonst.
 07d3:00820000:22c4:013e:25:0
 SUPERTENNIS HD
 c:0007ef,c:0107f0,c:0307ef,f:0001,p:Hotbird Sonst.
@@ -3830,15 +3770,15 @@ c:000208,c:010212,c:030208,f:0001,p:Hotbird Sonst.
 29d2:00820000:3cf0:013e:1:0
 A3
 c:000452,c:0104b6,c:030452,f:0001,p:Hotbird Sonst.
+2527:00820000:13ef:013e:25:0
+Abu Dhabi TV HD
+c:0011a7,c:0111a8,c:0311a7,f:0001,p:Hotbird Sonst.
 0832:00820000:22c4:013e:25:0
 ABU DHABI TV HD
 c:000ba5,c:010ba6,c:030ba5,f:0001,p:Hotbird Sonst.
-2523:00820000:13ef:013e:1:0
-AD SPORT1
+2523:00820000:13ef:013e:25:0
+AD SPORT1 HD
 c:001113,c:011114,c:031113,f:0001,p:Hotbird Sonst.
-1f5e:00820000:319c:013e:1:0
-Al Alam TV
-c:000bc2,c:010bcc,c:030bc3,f:0001,p:Hotbird Sonst.
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
 c:000402,c:010403,c:030402,f:0001,p:Hotbird Sonst.
@@ -3848,8 +3788,8 @@ c:0003e9,c:010100,c:0303e9,f:0001,p:Hotbird Sonst.
 0002:00820000:2e18:00b0:25:0
 Al Aoula Inter+L HD
 c:000023,c:010024,c:030023,f:0001,p:Hotbird Sonst.
-2529:00820000:13ef:013e:1:0
-Al Arabia
+2529:00820000:13ef:013e:25:0
+AL Arabia HD
 c:000203,c:010283,c:030203,f:0001,p:Hotbird Sonst.
 1d28:00820000:2fa8:013e:1:0
 Al Fady
@@ -3872,8 +3812,8 @@ c:000134,c:010135,c:030134,f:0001,p:Hotbird Sonst.
 0834:00820000:22c4:013e:25:0
 Al Rayyan Al Qadeem HD
 c:000bb9,c:010bba,c:030bb9,f:0001,p:Hotbird Sonst.
-2520:00820000:13ef:013e:1:0
-AL SHARJAH
+2520:00820000:13ef:013e:25:0
+AL SHARJAH HD
 c:0010f5,c:0110f6,c:0310f5,f:0001,p:Hotbird Sonst.
 2526:00820000:13ef:013e:25:0
 AL SHARQIYA HD
@@ -3899,9 +3839,9 @@ c:000514,c:010515,c:030514,f:0001,p:Hotbird Sonst.
 02df:00820000:1b58:013e:1:0
 AL-MAYADEEN
 c:00057b,c:010963,c:03057b,f:0001,p:Hotbird Sonst.
-08a6:00820000:01f4:013e:25:0
-ALNABAA HD
-c:0007de,c:010bc6,c:0307de,f:0001,p:Hotbird Sonst.
+05f1:00820000:2c24:013e:1:0
+Arbaein TV
+c:00145b,c:01145c,c:03145b,f:0001,p:Hotbird Sonst.
 0004:00820000:2e18:00b0:25:0
 Arrabiaa HD
 c:00002e,c:01002f,c:03002e,f:0001,p:Hotbird Sonst.
@@ -3920,9 +3860,6 @@ c:000cf0,c:010cf1,c:030cef,f:0001,p:Hotbird Sonst.
 200b:00820000:24b8:013e:1:0
 BBC Arabic TV
 c:0003e9,c:0103f3,c:0303e9,f:0001,p:Hotbird Sonst.
-05e5:00820000:2c24:013e:1:0
-Beitolabbas TV
-c:0013e3,c:0113e4,c:0313e3,f:0001,p:Hotbird Sonst.
 29d1:00820000:3cf0:013e:1:0
 CANAL ALGERIE
 c:000451,c:0104b5,c:030451,f:0001,p:Hotbird Sonst.
@@ -3932,18 +3869,12 @@ c:00022a,c:010234,c:03022a,f:0001,p:Hotbird Sonst.
 2485:00820000:23f0:013f:1:0
 Dua Channel
 c:00070a,c:01070b,c:03070a,f:0001,p:Hotbird Sonst.
-253a:00820000:13ef:013e:1:0
-Dubai Holy Quran
-c:0010b9,c:0110ba,c:0310b9,f:0001,p:Hotbird Sonst.
 0389:00820000:2134:013e:25:0
 Dubai TV HD
 c:000065,c:010066,c:030065,f:0001,p:Hotbird Sonst.
 0008:00820000:25e4:02be:1:0
 ESC
 c:000744,c:01071c,c:030744,f:0001,p:Hotbird Sonst.
-05f0:00820000:2c24:013e:1:0
-Extreme Sports
-c:001451,c:011452,c:031451,f:0001,p:Hotbird Sonst.
 232d:00820000:2328:013e:1:0
 FADAK TV
 c:00041b,c:01041c,c:031ffe,f:0001,p:Hotbird Sonst.
@@ -3968,15 +3899,9 @@ c:000618,c:0105f0,c:030618,f:0001,p:Hotbird Sonst.
 0009:00820000:25e4:02be:1:0
 Iraqia News
 c:0007a8,c:010780,c:0307a8,f:0001,p:Hotbird Sonst.
-05dd:00820000:2c24:013e:1:0
-Janatobaghie TV
-c:001393,c:011394,c:031393,f:0001,p:Hotbird Sonst.
 0028:00820000:25e4:02be:1:0
 JORDAN TV
 c:000fdc,c:010fb4,c:030fdc,f:0001,p:Hotbird Sonst.
-07e3:00820000:22c4:013e:22:0
-KARBALA TV
-c:00088f,c:010890,c:03088f,f:0001,p:Hotbird Sonst.
 0bc4:00820000:20d0:013e:22:0
 Karbala TV
 c:010cf0,c:030c8c,f:0001,p:Hotbird Sonst.
@@ -3998,9 +3923,6 @@ c:00016e,c:01016f,c:03016e,f:0001,p:Hotbird Sonst.
 0314:00820000:1b58:013e:1:0
 mta -muslim tv
 c:000932,c:010938,c:030932,f:0001,p:Hotbird Sonst.
-0bc3:00820000:20d0:013e:1:0
-NABA TV
-c:000bcd,c:010bd7,c:030bcd,f:0001,p:Hotbird Sonst.
 08a0:00820000:01f4:013e:1:0
 NOUR TV
 c:0007d8,c:010bc0,c:0307d8,f:0001,p:Hotbird Sonst.
@@ -4058,11 +3980,14 @@ c:0000dc,c:0100e6,c:0300dc,f:0001,p:Hotbird Sonst.
 12b0:00820000:3458:013e:1:0
 UMUT-OMID
 c:000824,c:010c0c,c:030824,f:0001,p:Hotbird Sonst.
+0003:00820000:0578:013e:1:0
+WESAL HAQ
+c:00012d,c:01012e,c:03012d,f:0001,p:Hotbird Sonst.
 089e:00820000:01f4:013e:1:0
 WESAL HAQ
 c:0007d6,c:010bbe,c:020fa6,c:0307d6,f:0001,p:Hotbird Sonst.
-2524:00820000:13ef:013e:1:0
-YAS Sports
+2524:00820000:13ef:013e:25:0
+YAS Sports HD
 c:00119d,c:01119e,c:03119d,f:0001,p:Hotbird Sonst.
 089c:00820000:01f4:013e:1:0
 YEMEN TV
@@ -4352,9 +4277,6 @@ c:00033f,c:010340,c:03033f,f:0001,p:Nova,C:0001
 1bc5:00820000:003d:013e:25:0
 Nova Sports Stories HD
 c:000206,c:0102c6,c:030206,f:0001,p:Nova,C:0001
-0149:00820000:157c:013e:22:0
-Novasportsextra1
-c:000200,c:01028a,c:030200,f:0001,p:Nova,C:0001
 0164:00820000:1c84:013e:22:0
 Novasports Extra 2
 c:000201,c:010294,c:030201,f:0001,p:Nova,C:0001
@@ -4391,9 +4313,6 @@ c:001b59,c:011b63,c:021b6d,c:031b59,f:0001,p:Nova,C:0001
 4225:00820000:3db8:013e:25:0
 Hustler HD
 c:000021,c:010020,c:030021,f:0001,p:Hotbird Erotic,C:012f
-013e:00820000:157c:013e:25:0
-NovaX-Men HD
-c:00020f,c:010210,c:03020f,f:0001,p:Nova,C:0001
 35c7:00820000:1388:013e:22:0
 PASSIONXXX
 c:00125c,c:01125d,c:03125c,f:0001,p:Hotbird Erotic,C:002d
@@ -4577,6 +4496,9 @@ c:000385,c:01038e,c:030385,f:0001,p:Polsat,C:002e
 12e2:00820000:2e7c:013e:22:0
 HGTV
 c:000c5b,c:010c14,c:030c5b,f:0001,p:Polsat,C:0026
+10db:00820000:03e8:013e:22:0
+HGTV
+c:000204,c:0102b2,c:030204,f:0001,p:NC+,C:002e
 3e29:00820000:2ee0:013e:25:0
 Lifetime HD
 c:000111,c:010211,c:030111,f:0001,p:Polsat,C:0026
@@ -4628,9 +4550,15 @@ c:000142,c:010242,c:030142,f:0001,p:Polsat,C:0020
 12e4:00820000:2e7c:013e:22:0
 TVN Style
 c:000c5d,c:010c1c,c:020db2,c:030c5d,c:040c1d,f:0001,p:Polsat,C:0026
+10df:00820000:03e8:013e:22:0
+TVN Style
+c:000208,c:0102da,c:020249,c:030208,f:0001,p:NC+,C:002e
 12e3:00820000:2e7c:013e:22:0
 TVN Turbo
 c:000c5c,c:010c18,c:020db1,c:030c5c,c:040c19,f:0001,p:Polsat,C:0026
+10de:00820000:03e8:013e:22:0
+TVN Turbo
+c:000207,c:0102d0,c:020247,c:030207,f:0001,p:NC+,C:002e
 113b:00820000:2af8:013e:22:0
 TVP 3
 c:0000aa,c:010078,c:0201ff,c:0300aa,f:0001,p:NC+,C:002e
@@ -4673,9 +4601,15 @@ c:000133,c:010233,c:030133,f:0001,p:Polsat,C:0004
 12e0:00820000:2e7c:013e:22:0
 TVN 24
 c:000c59,c:010c0c,c:030c59,f:0001,p:Polsat,C:0026
+10da:00820000:03e8:013e:22:0
+TVN 24
+c:000203,c:0102a8,c:020243,c:030203,f:0001,p:NC+,C:002e
 12e5:00820000:2e7c:013e:22:0
 TVN24 BiS
 c:000c5e,c:010c20,c:030c5e,f:0001,p:Polsat,C:0026
+10e0:00820000:03e8:013e:22:0
+TVN24 BiS
+c:000209,c:0102e4,c:030209,f:0001,p:NC+,C:002e
 12e1:00820000:2e7c:013e:22:0
 TVN 7
 c:000c5a,c:010c10,c:020daf,c:030c5a,c:040c11,f:0001,p:Polsat,C:0024
@@ -4730,9 +4664,6 @@ c:0000a6,c:0300a6,c:040068,f:0001,p:NC+,C:002e
 0c31:00820000:0065:013e:25:0
 CI Polsat HD
 c:000900,c:010901,c:030900,f:0001,p:Polsat,C:0027
-1c9c:00820000:332c:013e:1:0
-Crime and Investigation
-c:000dc4,c:010e3c,c:030dc4,f:0001,p:NC+,C:002e
 4280:00820000:2bc0:013e:22:0
 Da Vinci
 c:000124,c:010224,c:030124,f:0001,p:Polsat,C:002e
@@ -4751,9 +4682,6 @@ c:00006d,c:0100d1,c:03006d,f:0001,p:Polsat,C:002e
 428c:00820000:2bc0:013e:22:0
 DTX
 c:000136,c:010236,c:030136,f:0001,p:Polsat,C:0004
-10e1:00820000:03e8:013e:22:0
-FOKUS TV
-c:00020a,c:0102ee,c:020249,c:03020a,f:0001,p:Hotbird Sonst.,C:002e
 3e22:00820000:2ee0:013e:25:0
 H2 HD
 c:000106,c:010206,c:030106,f:0001,p:Polsat,C:002e
@@ -4802,9 +4730,6 @@ c:00017c,c:01017d,c:03017c,f:0001,p:Polsat,C:002e
 429c:00820000:2bc0:013e:22:0
 Eska TV
 c:000152,c:010252,c:030152,f:0001,p:Polsat,C:0004
-10db:00820000:03e8:013e:22:0
-Eska TV
-c:000204,c:0102b2,c:030204,f:0001,p:Musik,C:002e
 429b:00820000:2bc0:013e:22:0
 Eska TV Extra
 c:000151,c:010251,c:030151,f:0001,p:Polsat
@@ -4881,7 +4806,7 @@ c:0000e1,c:0100eb,c:0300e1,f:0001,p:Hotbird Erotic,C:012f
 VIVID RED HD
 c:0001fe,c:010208,c:0301fe,f:0001,p:Polsat,C:0025
 10dc:00820000:03e8:013e:22:0
-MANGO 24
+Mango 24
 c:000205,c:0102bc,c:020245,c:030205,f:0001,p:NC+
 12df:00820000:2e7c:013e:22:0
 TVN
@@ -5068,7 +4993,7 @@ FOX HD Polska
 c:000385,c:01038e,c:030385,f:0001,p:Polsat,C:002e
 10eb:00820000:03e8:013e:25:0
 HGTV HD
-c:000214,c:010352,c:030214,f:0001,p:NC+
+c:000214,c:010352,c:030214,f:0001,p:NC+,C:002e
 377f:00820000:044c:013e:25:0
 Kuchnia+ HD
 c:0000a6,c:010068,c:0300a6,f:0001,p:NC+,C:0026
@@ -5078,9 +5003,6 @@ c:000111,c:010211,c:030111,f:0001,p:Polsat,C:0026
 4240:00820000:3db8:013e:22:0
 Novela TV
 c:00080d,c:01080e,c:03080d,f:0001,p:NC+,C:0004
-10e5:00820000:03e8:013e:22:0
-NOWA TV
-c:00020e,c:010316,c:03020e,f:0001,p:NC+,C:002e
 10e4:00820000:03e8:013e:22:0
 NTL
 c:00020d,c:01030c,c:03020d,f:0001,p:NC+
@@ -5195,9 +5117,6 @@ c:000069,c:0100cd,c:020029,c:030069,f:0001,p:BIS,C:000f
 0c31:00820000:0065:013e:25:0
 CI Polsat HD
 c:000900,c:010901,c:030900,f:0001,p:Polsat,C:0027
-1c9c:00820000:332c:013e:1:0
-Crime and Investigation
-c:000dc4,c:010e3c,c:030dc4,f:0001,p:NC+,C:002e
 4280:00820000:2bc0:013e:22:0
 Da Vinci
 c:000124,c:010224,c:030124,f:0001,p:Polsat,C:002e
@@ -5216,9 +5135,6 @@ c:00006d,c:0100d1,c:03006d,f:0001,p:Polsat,C:002e
 3a9c:00820000:0514:013e:25:0
 DTX HD
 c:0000a3,c:01005c,c:0300a3,c:04005c,f:0001,p:NC+,C:002e
-10e1:00820000:03e8:013e:22:0
-FOKUS TV
-c:00020a,c:0102ee,c:020249,c:03020a,f:0001,p:Hotbird Sonst.,C:002e
 3e22:00820000:2ee0:013e:25:0
 H2 HD
 c:000106,c:010206,c:030106,f:0001,p:Polsat,C:002e
@@ -5255,9 +5171,6 @@ c:0007f9,c:0107fa,c:0307f9,f:0001,p:NC+,C:0004
 1c8c:00820000:1ce8:0071:22:0
 Disco Polo Music
 c:00017c,c:01017d,c:03017c,f:0001,p:Polsat,C:002e
-10db:00820000:03e8:013e:22:0
-Eska TV
-c:000204,c:0102b2,c:030204,f:0001,p:Musik,C:002e
 3d63:00820000:2c88:013e:22:0
 EskaROCK TV
 c:0000ae,c:010088,c:0300ae,f:0001,p:NC+
@@ -5280,7 +5193,7 @@ c:000867,c:010868,c:030867,f:0001,p:Polsat,C:002e
 MTV Rocks
 c:0001f7,c:01025b,c:0301f7,f:0001,p:Polsat,C:002e
 10dd:00820000:03e8:013e:22:0
-Nuta TV
+NUTA TV
 c:000206,c:0102c6,c:030206,f:0001,p:NC+
 4293:00820000:2bc0:013e:25:0
 Polsat Music HD
@@ -5397,7 +5310,7 @@ c:000021,c:010020,c:030021,f:0001,p:Hotbird Erotic,C:012f
 XXL PL
 c:000076,c:0100da,c:020029,c:030076,f:0001,p:NC+,C:000e
 10dc:00820000:03e8:013e:22:0
-MANGO 24
+Mango 24
 c:000205,c:0102bc,c:020245,c:030205,f:0001,p:NC+
 12df:00820000:2e7c:013e:22:0
 TVN
@@ -5426,6 +5339,9 @@ c:0000a7,c:01006c,c:0300a7,f:0001,p:NC+,C:0006
 12e2:00820000:2e7c:013e:22:0
 HGTV
 c:000c5b,c:010c14,c:030c5b,f:0001,p:Polsat,C:0026
+10db:00820000:03e8:013e:22:0
+HGTV
+c:000204,c:0102b2,c:030204,f:0001,p:NC+,C:002e
 332d:00820000:3390:0071:22:0
 Polsat
 c:000101,c:010102,c:020108,c:030101,f:0001,p:Polsat,C:002e
@@ -5438,6 +5354,9 @@ c:000c5d,c:010c1c,c:020db2,c:030c5d,c:040c1d,f:0001,p:Polsat,C:0026
 12e3:00820000:2e7c:013e:22:0
 TVN Turbo
 c:000c5c,c:010c18,c:020db1,c:030c5c,c:040c19,f:0001,p:Polsat,C:0026
+10de:00820000:03e8:013e:22:0
+TVN Turbo
+c:000207,c:0102d0,c:020247,c:030207,f:0001,p:NC+,C:002e
 1c8b:00820000:1ce8:0071:22:0
 Nat Geo Wild
 c:000153,c:010154,c:030153,f:0001,p:Polsat,C:0006
@@ -5450,9 +5369,18 @@ c:000161,c:010162,c:030161,f:0001,p:Polsat,C:002e
 12e0:00820000:2e7c:013e:22:0
 TVN 24
 c:000c59,c:010c0c,c:030c59,f:0001,p:Polsat,C:0026
+10da:00820000:03e8:013e:22:0
+TVN 24
+c:000203,c:0102a8,c:020243,c:030203,f:0001,p:NC+,C:002e
+10df:00820000:03e8:013e:22:0
+TVN Style
+c:000208,c:0102da,c:020249,c:030208,f:0001,p:NC+,C:002e
 12e5:00820000:2e7c:013e:22:0
 TVN24 BiS
 c:000c5e,c:010c20,c:030c5e,f:0001,p:Polsat,C:0026
+10e0:00820000:03e8:013e:22:0
+TVN24 BiS
+c:000209,c:0102e4,c:030209,f:0001,p:NC+,C:002e
 3607:00820000:00c8:013e:1:0
 Eurosport
 c:000a11,c:010a02,c:020a12,c:030a11,f:0001,p:NC+,C:00af
@@ -6032,9 +5960,6 @@ c:01040c,c:02040d,c:03040c,f:0001,p:Astra Radio
 3174:00c00000:0459:0001:2:0
 HIT RADIO FFH
 c:010400,c:020401,c:030400,f:0001,p:Astra Radio
-3353:00c00000:045b:0001:2:0
-Hope Channel Radio
-c:0101b7,c:0301b7,f:0001,p:Astra Radio
 316b:00c00000:0459:0001:2:0
 Inselradio
 c:0102be,c:0302be,f:0001,p:Astra Radio
@@ -6454,7 +6379,7 @@ CRFR-NEW LIFE
 c:010bd3,c:030fbb,c:0400ff,f:0001,p:Hotbird Radio
 0005:00820000:02bc:013e:2:0
 Public Radio of Armenia
-c:0105de,c:0305dc,f:0001,p:Hotbird Radio
+c:0105de,c:0305de,f:0001,p:Hotbird Radio
 2916:00820000:3cf0:013e:2:0
 Radio Belarus International
 c:01015c,c:03015c,f:0001,p:Hotbird Radio
@@ -6630,32 +6555,26 @@ c:01060f,c:03060f,f:0001,p:Hotbird Radio
 Bahai Radio
 c:010bd4,c:030bd4,f:0001,p:Hotbird Radio
 1f2d:00820000:21fc:025a:2:0
-IRIB 01 WORLD SERVICE
+RADIO 01 WORLD SERVICE
 c:010713,c:030713,f:0001,p:Hotbird Radio
 1f2e:00820000:21fc:025a:2:0
-IRIB 02 WORLD SERVICE
+RADIO 02 WORLD SERVICE
 c:01071d,c:03071d,f:0001,p:Hotbird Radio
 1f1e:00820000:21fc:025a:2:0
-IRIB 03 RADIO WORLD SERVI
+RADIO 03 WORLD SERVICE
 c:01067d,c:03067d,f:0001,p:Hotbird Radio
 1f30:00820000:21fc:025a:2:0
-IRIB 04 WORLD SERVICE
+RADIO 04 WORLD SERVICE
 c:010731,c:030731,f:0001,p:Hotbird Radio
-00b9:00820000:21fc:025a:2:0
-IRIB 05 WORLD SERVICE
-c:01073b,c:03073b,f:0001,p:Hotbird Radio
-1f32:00820000:21fc:025a:2:0
-IRIB 06 WORLD SERVICE
-c:010745,c:030745,f:0001,p:Hotbird Radio
-1f1c:00820000:21fc:025a:2:0
-IRIB 07 WORLD SERVICE
-c:010669,c:030669,f:0001,p:Hotbird Radio
-0001:00820000:0578:013e:2:0
-R Radio
-c:010066,c:030066,f:0001,p:Hotbird Radio
 1f31:00820000:21fc:025a:2:0
 RADIO 05 WORLD SERVICE
 c:01073b,c:03073b,f:0001,p:Hotbird Radio
+1f32:00820000:21fc:025a:2:0
+RADIO 06 WORLD SERVICE
+c:010745,c:030745,f:0001,p:Hotbird Radio
+1f1c:00820000:21fc:025a:2:0
+RADIO 07 WORLD SERVICE
+c:010669,c:030669,f:0001,p:Hotbird Radio
 1f19:00820000:21fc:025a:2:0
 RADIO AAVA
 c:01064b,c:03064b,f:0001,p:Hotbird Radio
@@ -6669,7 +6588,7 @@ c:0105fc,c:0305fc,f:0001,p:Hotbird Radio
 RADIO FARHANG
 c:010619,c:030619,f:0001,p:Hotbird Radio
 1f22:00820000:21fc:025a:2:0
-RADIO GOFTEGO
+RADIO GOFTEGOO
 c:0106a5,c:0306a5,f:0001,p:Hotbird Radio
 1f0f:00820000:21fc:025a:2:0
 RADIO IRAN
@@ -6711,11 +6630,8 @@ c:01069b,c:03069b,f:0001,p:Hotbird Radio
 Radio Tondar
 c:010c01,c:030c01,f:0001,p:Hotbird Radio
 1f16:00820000:21fc:025a:2:0
-RADIO VAEZESH
+RADIO VARZESH
 c:01062d,c:03062d,f:0001,p:Hotbird Radio
-235c:00820000:2328:013e:2:0
-Rangarang Radio
-c:0107dc,c:031ffe,f:0001,p:Hotbird Radio
 1d2d:00820000:2fa8:013e:2:0
 RFI Persian
 c:011e1f,c:031e1f,f:0001,p:Hotbird Radio
@@ -6731,6 +6647,9 @@ c:010125,c:030125,f:0001,p:Hotbird Radio
 3a0f:00820000:1fa4:013e:2:0
 K24 Radio
 c:010034,c:0303e9,f:0001,p:Hotbird Radio
+0001:00820000:0578:013e:2:0
+R Radio
+c:010066,c:030066,f:0001,p:Hotbird Radio
 08b3:00820000:01f4:013e:2:0
 WELAT
 c:010bd3,c:030bd3,f:0001,p:Hotbird Radio
@@ -6815,7 +6734,7 @@ c:01006d,c:03006d,f:0001,p:Hotbird Radio
 0e42:00820000:1c20:013e:2:0
 DISCORADIO
 c:010dd3,c:030dd3,f:0001,p:Hotbird Radio
-2b7b:00820000:19c8:1ae3:2:0
+2b7b:00820000:19c8:06cb:2:0
 InBlu
 c:0101b0,c:0301b0,f:0001,p:Hotbird Radio
 0e45:00820000:1c20:013e:2:0
@@ -6854,9 +6773,6 @@ c:010dbc,c:030dbc,f:0001,p:Hotbird Radio
 0e46:00820000:1c20:013e:2:0
 Radio Iglesias
 c:010ddc,c:030ddc,f:0001,p:Hotbird Radio
-0e2e:00820000:0708:00c8:2:0
-RADIO ITALIA s.m.i.
-c:010dbc,c:030dbc,f:0001,p:Hotbird Radio
 0e30:00820000:1c20:013e:2:0
 RADIO ITALIA s.m.i.
 c:0118b0,c:0318b0,f:0001,p:Hotbird Radio
@@ -6902,7 +6818,7 @@ c:0111c6,c:0311c6,f:0001,p:Hotbird Radio
 0e35:00820000:1c20:013e:2:0
 Radio Sportiva
 c:010db8,c:030db8,f:0001,p:Hotbird Radio
-2bad:00820000:19c8:1ae3:2:0
+2bad:00820000:19c8:06cb:2:0
 Radio Vaticana
 c:0101b1,c:0301b1,f:0001,p:Hotbird Radio
 38c7:00820000:2648:013e:2:0
@@ -6931,10 +6847,10 @@ Rai Radio 5 Classica
 c:010299,c:030299,f:0001,p:Hotbird Radio
 0cf9:00820000:1518:013e:2:0
 Rai Radio Kids
-c:01029c,f:0001,p:Hotbird Radio
+c:01029c,c:03029c,f:0001,p:Hotbird Radio
 0cf8:00820000:1518:013e:2:0
 Rai Radio Live
-c:01029b,f:0001,p:Hotbird Radio
+c:01029b,c:03029b,f:0001,p:Hotbird Radio
 0cf7:00820000:1518:013e:2:0
 Rai Radio Techete'
 c:010296,c:030296,f:0001,p:Hotbird Radio
@@ -6950,6 +6866,9 @@ c:010039,c:030039,f:0001,p:Hotbird Radio
 0cf0:00820000:1518:013e:2:0
 Rai Radio2
 c:01029f,c:03029f,f:0001,p:Hotbird Radio
+0cfa:00820000:1518:013e:2:0
+Rai Radio2 indie
+c:01029d,c:03029d,f:0001,p:Hotbird Radio
 0cf1:00820000:1518:013e:2:0
 Rai Radio3
 c:0102a0,c:0302a0,f:0001,p:Hotbird Radio
@@ -6959,12 +6878,12 @@ c:01002e,c:03002e,f:0001,p:Hotbird Radio
 0e31:00820000:1c20:013e:2:0
 RMCSPORT
 c:0118ba,c:0318ba,f:0001,p:Hotbird Radio
-0e3a:00820000:1c20:013e:2:0
-RTL 102.5
-c:011914,c:031914,f:0001,p:Hotbird Radio
 0e3a:00820000:0708:00c8:2:0
 RTL 102.5
 c:011914,c:021915,c:031914,f:0001,p:Hotbird Radio
+0e3a:00820000:1c20:013e:2:0
+RTL 102.5
+c:011914,c:031914,f:0001,p:Hotbird Radio
 12b1:00820000:3458:013e:2:0
 RVS Italy
 c:010c0d,c:030c0d,f:0001,p:Hotbird Radio
