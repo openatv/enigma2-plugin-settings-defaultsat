@@ -9,4 +9,3 @@
 #SERVICE 1:7:2:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe37.radio" ORDER BY bouquet
 #SERVICE 1:7:2:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe38.radio" ORDER BY bouquet
 #SERVICE 1:7:2:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe39.radio" ORDER BY bouquet
-#SERVICE 1:7:2:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe40.radio" ORDER BY bouquet
