@@ -58,7 +58,7 @@ transponders
 	s 11158000:27500000:1:3:130:0:0:1:2:0:2
 /
 00820000:33f4:013e
-	s 11178000:27500000:0:3:130:0:0
+	s 11178000:27500000:0:3:130:0:0:1:2:0:2
 /
 00820000:3458:013e
 	s 11200000:27500000:1:4:130:0:0
@@ -150,7 +150,7 @@ transponders
 00820000:1964:013e
 	s 12015000:27500000:0:3:130:0:0:1:2:0:2
 /
-00820000:19c8:101e
+00820000:19c8:1e57
 	s 12034000:29900000:1:4:130:0:0
 /
 00820000:1b58:013e
@@ -204,7 +204,7 @@ transponders
 00820000:24b8:013e
 	s 12597000:27500000:1:3:130:0:0
 /
-00820000:251c:1908
+00820000:251c:1ee6
 	s 12616000:29900000:0:4:130:0:0
 /
 00820000:25e4:02be
@@ -374,6 +374,9 @@ transponders
 /
 00c00000:0002:0085
 	s 11758000:27500000:0:9:192:0:0:1:1:0:2
+/
+00c00000:042c:0001
+	s 11778000:29500000:1:9:192:0:0:1:1:0:2
 /
 00c00000:0010:0085
 	s 11797000:27500000:0:9:192:0:0:1:1:0:2
@@ -750,7 +753,7 @@ c:000dff,c:010e00,c:030dff,f:0001,p:Sonstige Astra
 EWTN katholisches TV
 c:0003ff,c:010400,c:0303ff,f:0001,p:Sonstige Astra
 33ab:00c00000:03eb:0001:25:0
-HOPE Channel HD
+HopeTV HD
 c:0008de,c:0308de,f:0001,p:Sonstige Astra
 3139:00c00000:0459:0001:1:0
 K-TV
@@ -863,42 +866,69 @@ c:0000e9,c:01014d,c:0300e9,f:0001,p:Sonstige Astra
 0295:00c00000:0021:0085:1:0
 AstroTV
 c:0009ff,c:010a00,c:0309ff,f:0001,p:Sonstige Astra
-000a:00c00000:0004:0085:22:0
-Sky Cinema Premieren
-c:0000ff,c:010100,c:020020,c:0300ff,f:0001,p:Sky Deutschland,C:0080
-002b:00c00000:0006:0085:22:0
-Sky Cinema Premieren +24
-c:0011ff,c:011200,c:020020,c:0311ff,f:0001,p:Sky Deutschland,C:0080
-0197:00c00000:0004:0085:22:0
-Sky Cinema Family
-c:000fff,c:011000,c:020020,c:030fff,f:0001,p:Sky Deutschland,C:0080
-0029:00c00000:0002:0085:22:0
-Sky Cinema Best Of
-c:0000ff,c:010100,c:020020,c:0300ff,f:0001,p:Sky Deutschland,C:0080
-0009:00c00000:0003:0085:22:0
-Sky Cinema Action
-c:0002ff,c:010300,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+0083:00c00000:0006:0085:25:0
+Sky Cinema Premieren HD
+c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
+0087:00c00000:000b:0085:25:0
+Sky Cinema Premieren +24 HD
+c:0000ff,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
+008b:00c00000:0002:0085:25:0
+Sky Cinema Family HD
+c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+006b:00c00000:000c:0085:25:0
+Sky Cinema Best Of HD
+c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+0074:00c00000:0009:0085:25:0
+Sky Cinema Action HD
+c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+000b:00c00000:0004:0085:25:0
+Sky Cinema Thriller HD
+c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
+006f:00c00000:000d:0085:25:0
+Sky Cinema Special HD
+c:0000ff,c:020020,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
 0008:00c00000:0003:0085:22:0
 Sky Cinema Fun
 c:0003ff,c:010400,c:020020,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
 0204:00c00000:0006:0085:22:0
 Sky Cinema Classics
 c:0002ff,c:010300,c:020020,c:0302ff,f:0001,p:Sky Deutschland,C:0080
-001c:00c00000:0003:0085:22:0
-Boomerang
-c:0004ff,c:010500,c:020020,c:0304ff,f:0001,p:Sky Deutschland,C:0080
-0013:00c00000:0002:0085:22:0
-Junior (06-20)
-c:0004ff,c:010500,c:020020,c:0304ff,f:0001,p:Sky Deutschland,C:0080
-0194:00c00000:000b:0085:22:0
-Cartoon Network
-c:0006ff,c:010700,c:0306ff,f:0001,p:Sky Deutschland,C:0080
-0031:00c00000:000d:0085:22:0
-Spiegel TV Wissen
-c:0006ff,c:010700,c:0306ff,f:0001,p:Sky Deutschland,C:0080
-0192:00c00000:000b:0085:22:0
-Crime + Investigation
-c:0001ff,c:010200,c:0301ff,f:0001,p:Sky Deutschland,C:0080
+006e:00c00000:000d:0085:25:0
+Sky Atlantic HD
+c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
+0093:00c00000:0002:0085:25:0
+Sky One HD
+c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
+0017:00c00000:0004:0085:25:0
+Sky Krimi HD
+c:0005ff,c:010600,c:020020,c:0305ff,f:0001,p:Sky Deutschland,C:0080
+0075:00c00000:000c:0085:25:0
+sky comedy HD
+c:0004ff,c:010503,c:0304ff,f:0001,p:Sky Deutschland,C:0080
+007f:00c00000:000d:0085:25:0
+13th Street HD
+c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+007e:00c00000:000c:0085:25:0
+SYFY HD
+c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
+007c:00c00000:000c:0085:25:0
+Fox HD
+c:0009ff,c:010a03,c:0309ff,c:040a03,f:0001,p:Sky Deutschland,C:0080
+008c:00c00000:0004:0085:25:0
+TNT Film HD
+c:000aff,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
+007b:00c00000:0009:0085:25:0
+TNT Serie HD
+c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
+0088:00c00000:000b:0085:25:0
+TNT Comedy HD
+c:000eff,c:030eff,c:040f03,f:0001,p:Sky Deutschland,C:0080
+0065:00c00000:0009:0085:25:0
+Universal HD
+c:0005ff,c:0305ff,c:040603,f:0001,p:Sky Deutschland,C:0080
+0080:00c00000:000b:0085:25:0
+E! Entertainm. HD
+c:0008ff,c:0308ff,c:040903,f:0001,p:Sky Deutschland,C:0080
 0196:00c00000:0002:0085:22:0
 Kinowelt TV
 c:0008ff,c:010900,c:0308ff,f:0001,p:Sky Deutschland,C:0080
@@ -914,87 +944,45 @@ c:0011ff,c:011200,c:020020,c:0311ff,f:0001,p:Sky Deutschland,C:0080
 0018:00c00000:0002:0085:22:0
 Classica (20-06)
 c:0005ff,c:010600,c:020020,c:0305ff,f:0001,p:Sky Deutschland,C:0080
-00a8:00c00000:000b:0085:22:0
-Motorvision TV
-c:0003ff,c:010400,c:0303ff,f:0001,p:Sky Deutschland,C:0080
-0025:00c00000:000f:0085:1:0
-Sky Sport News
-c:0002ff,c:010300,c:0302ff,f:0001,p:Sky Deutschland
-00dd:00c00000:0004:0085:22:0
-Sky Sport 1
-c:0006ff,c:010700,c:020020,c:0306ff,f:0001,p:Sky Deutschland,C:0080
-00de:00c00000:0002:0085:22:0
-Sky Sport 2
-c:0006ff,c:010700,c:020020,c:0306ff,f:0001,p:Sky Deutschland,C:0080
-0107:00c00000:0003:0085:22:0
-Sky Sport 3
-c:000bff,c:010c00,c:020020,c:030bff,f:0001,p:Sky Deutschland,C:0080
-0111:00c00000:0002:0085:22:0
-Sky Sport 4
-c:000fff,c:011000,c:020020,c:030fff,f:0001,p:Sky Deutschland,C:0080
-011b:00c00000:0002:0085:22:0
-Sky Sport 5
-c:0012ff,c:011300,c:020020,c:0312ff,f:0001,p:Sky Deutschland,C:0080
-0125:00c00000:0003:0085:22:0
-Sky Sport 6
-c:0015ff,c:011600,c:020020,c:0315ff,f:0001,p:Sky Deutschland,C:0080
-012f:00c00000:0003:0085:22:0
-Sky Sport 7
-c:0018ff,c:011900,c:020020,c:0318ff,f:0001,p:Sky Deutschland,C:0080
-0139:00c00000:0003:0085:22:0
-Sky Sport 8
-c:000fff,c:011000,c:020020,c:030fff,c:041003,f:0001,p:Sky Deutschland,C:0080
-0143:00c00000:0003:0085:22:0
-Sky Sport 9
-c:0012ff,c:011300,c:020020,c:0312ff,c:041303,f:0001,p:Sky Deutschland,C:0080
-014d:00c00000:0002:0085:22:0
-Sky Sport 10
-c:0015ff,c:011600,c:020020,c:0315ff,c:041603,f:0001,p:Sky Deutschland,C:0080
-00fd:00c00000:0003:0085:22:0
-Sky Sport 11
-c:001bff,c:011c00,c:020020,c:031bff,f:0001,p:Sky Deutschland,C:0080
-00df:00c00000:0004:0085:22:0
-Sky Bundesliga 1
-c:0008ff,c:010900,c:020020,c:0308ff,f:0001,p:Sky Deutschland,C:0080
-0106:00c00000:0003:0085:22:0
-Sky Bundesliga 2
-c:000aff,c:010b00,c:020020,c:030aff,f:0001,p:Sky Deutschland,C:0080
-0110:00c00000:0002:0085:22:0
-Sky Bundesliga 3
-c:000eff,c:010f00,c:020020,c:030eff,f:0001,p:Sky Deutschland,C:0080
-011a:00c00000:0002:0085:22:0
-Sky Bundesliga 4
-c:0011ff,c:011200,c:020020,c:0311ff,f:0001,p:Sky Deutschland,C:0080
-0124:00c00000:0003:0085:22:0
-Sky Bundesliga 5
-c:0014ff,c:011500,c:020020,c:0314ff,f:0001,p:Sky Deutschland,C:0080
-012e:00c00000:0003:0085:22:0
-Sky Bundesliga 6
-c:0017ff,c:011800,c:020020,c:0317ff,f:0001,p:Sky Deutschland,C:0080
-0138:00c00000:0003:0085:22:0
-Sky Bundesliga 7
-c:000eff,c:010f00,c:020020,c:030eff,f:0001,p:Sky Deutschland,C:0080
-0142:00c00000:0003:0085:22:0
-Sky Bundesliga 8
-c:0011ff,c:011200,c:020020,c:0311ff,f:0001,p:Sky Deutschland,C:0080
-014c:00c00000:0002:0085:22:0
-Sky Bundesliga 9
-c:0014ff,c:011500,c:020020,c:0314ff,f:0001,p:Sky Deutschland,C:0080
-00fc:00c00000:0003:0085:22:0
-Sky Bundesliga 10
-c:001aff,c:011b00,c:020020,c:031aff,f:0001,p:Sky Deutschland,C:0080
-001e:00c00000:0002:0085:22:0
-Sky Sport Austria 1
-c:0007ff,c:010800,c:020020,c:0307ff,f:0001,p:Sky Deutschland,C:0080
-0145:00c00000:0003:0085:22:0
-Sky Sport Austria 2
-c:0001ff,c:010200,c:020020,c:0301ff,f:0001,p:Sky Deutschland,C:0080
-0150:00c00000:0002:0085:22:0
-Sky Sport Austria 3
-c:0003ff,c:010400,c:020020,c:0303ff,f:0001,p:Sky Deutschland,C:0080
-00ff:00c00000:0003:0085:22:0
-Sky Sport Austria 4
-c:0000ff,c:010100,c:020020,c:0300ff,f:0001,p:Sky Deutschland,C:0080
+001c:00c00000:0003:0085:22:0
+Boomerang
+c:0004ff,c:010500,c:020020,c:0304ff,f:0001,p:Sky Deutschland,C:0080
+0013:00c00000:0002:0085:22:0
+Junior (06-20)
+c:0004ff,c:010500,c:020020,c:0304ff,f:0001,p:Sky Deutschland,C:0080
+0194:00c00000:000b:0085:22:0
+Cartoon Network
+c:0006ff,c:010700,c:0306ff,f:0001,p:Sky Deutschland,C:0080
+6ffb:00c00000:0436:0001:22:0
+Nick.Jr.
+c:000c27,c:010c28,c:031ffd,f:0001,p:Sky Deutschland,C:0080
+001b:00c00000:000d:0085:22:0
+Nicktoons
+c:0005ff,c:010600,c:0305ff,f:0001,p:Sky Deutschland,C:0080
+0082:00c00000:0006:0085:25:0
+Discovery HD
+c:0003ff,c:020020,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
+0070:00c00000:000d:0085:25:0
+National Geographic HD
+c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
+0076:00c00000:0006:0085:25:0
+Nat Geo Wild HD
+c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
+0071:00c00000:000b:0085:25:0
+History HD
+c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
+0089:00c00000:0010:0085:25:0
+Spiegel Geschichte HD
+c:0004ff,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
+0031:00c00000:000d:0085:22:0
+Spiegel TV Wissen
+c:0006ff,c:010700,c:0306ff,f:0001,p:Sky Deutschland,C:0080
+0192:00c00000:000b:0085:22:0
+Crime + Investigation
+c:0001ff,c:010200,c:0301ff,f:0001,p:Sky Deutschland,C:0080
+0085:00c00000:0003:0085:25:0
+Beate-Uhse.TV HD
+c:0007ff,c:0307ff,c:040803,f:0001,p:Sky Deutschland,C:0080
 0201:00c00000:000b:0085:22:0
 Blue Movie
 c:0009ff,c:010500,c:0309ff,f:0001,p:Sky Deutschland,C:0080
@@ -1043,81 +1031,6 @@ c:000cff,c:020020,c:030cff,f:0001,p:Sky Deutschland,C:0080
 014e:00c00000:0002:0085:22:0
 Sky Select Event B
 c:0016ff,c:011700,c:020020,c:0316ff,c:041703,f:0001,p:Sky Deutschland,C:0080
-0083:00c00000:0006:0085:25:0
-Sky Cinema Premieren HD
-c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
-0087:00c00000:000b:0085:25:0
-Sky Cinema Premieren +24 HD
-c:0000ff,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
-008b:00c00000:0002:0085:25:0
-Sky Cinema Family HD
-c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-006b:00c00000:000c:0085:25:0
-Sky Cinema Best Of HD
-c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-0074:00c00000:0009:0085:25:0
-Sky Cinema Action HD
-c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-000b:00c00000:0004:0085:25:0
-Sky Cinema Thriller HD
-c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
-006f:00c00000:000d:0085:25:0
-Sky Cinema Special HD
-c:0000ff,c:020020,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
-006e:00c00000:000d:0085:25:0
-Sky Atlantic HD
-c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
-0093:00c00000:0002:0085:25:0
-Sky 1 HD
-c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-007f:00c00000:000d:0085:25:0
-13th Street HD
-c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-007e:00c00000:000c:0085:25:0
-SYFY HD
-c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-007c:00c00000:000c:0085:25:0
-Fox HD
-c:0009ff,c:010a03,c:0309ff,c:040a03,f:0001,p:Sky Deutschland,C:0080
-008c:00c00000:0004:0085:25:0
-TNT Film HD
-c:000aff,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
-007b:00c00000:0009:0085:25:0
-TNT Serie HD
-c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
-0088:00c00000:000b:0085:25:0
-TNT Comedy HD
-c:000eff,c:030eff,c:040f03,f:0001,p:Sky Deutschland,C:0080
-0065:00c00000:0009:0085:25:0
-Universal HD
-c:0005ff,c:0305ff,c:040603,f:0001,p:Sky Deutschland,C:0080
-0017:00c00000:0004:0085:25:0
-Sky Krimi HD
-c:0005ff,c:010600,c:020020,c:0305ff,f:0001,p:Sky Deutschland,C:0080
-008a:00c00000:0003:0085:25:0
-Disney Junior HD
-c:0006ff,c:020020,c:0306ff,c:040703,f:0001,p:Sky Deutschland,C:0080
-0082:00c00000:0006:0085:25:0
-Discovery HD
-c:0003ff,c:020020,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
-0070:00c00000:000d:0085:25:0
-National Geographic HD
-c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-0076:00c00000:0006:0085:25:0
-Nat Geo Wild HD
-c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-0071:00c00000:000b:0085:25:0
-History HD
-c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-0089:00c00000:0010:0085:25:0
-Spiegel Geschichte HD
-c:0004ff,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
-0080:00c00000:000b:0085:25:0
-E! Entertainm. HD
-c:0008ff,c:0308ff,c:040903,f:0001,p:Sky Deutschland,C:0080
-0085:00c00000:0003:0085:25:0
-Beate-Uhse.TV HD
-c:0007ff,c:0307ff,c:040803,f:0001,p:Sky Deutschland,C:0080
 30d6:00c00000:0413:0001:25:0
 Eurosport 1 HD.
 c:0002ff,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0084
@@ -1238,6 +1151,9 @@ c:000aff,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
 0104:00c00000:000b:0085:25:0
 Eurosport360HD 9
 c:0015ff,c:0315ff,c:041603,f:0001,p:Sky Deutschland,C:0080
+00a8:00c00000:000b:0085:22:0
+Motorvision TV
+c:0003ff,c:010400,c:0303ff,f:0001,p:Sky Deutschland,C:0080
 1194:00c00000:0406:0001:25:0
 SPORTDIGITAL FUSSBALL HD
 c:0000ff,c:010100,c:0300ff,f:0001,p:Sky Deutschland,C:009d
@@ -1592,9 +1508,6 @@ c:0006e0,c:0106b8,c:0306e0,f:0001,p:Sonstige Astra
 18ed:00c00000:03f4:0001:25:0
 RT HD
 c:0003f3,c:0103f4,c:0303f3,f:0001,p:Sonstige Astra
-1af8:00c00000:03fe:0001:1:0
-Russia Today
-c:00025c,c:010270,c:03025c,f:0001,p:Sonstige Astra
 1c7a:00c00000:0457:0001:1:0
 Sky News Intl
 c:00050a,c:0108f2,c:031ffe,c:0400ff,f:0001,p:Sonstige Astra
@@ -1604,6 +1517,9 @@ c:00041b,c:01041c,c:03041b,f:0001,p:Sonstige Astra
 1b06:00c00000:03fe:0001:25:0
 TRT World HD
 c:00026a,c:01027e,c:03026a,f:0001,p:Sonstige Astra
+1645:00c00000:042c:0001:22:0
+BVN TV
+c:00020d,c:01007a,c:020028,c:03020d,f:0001,p:Sonstige Astra
 2762:00c00000:0402:0001:1:0
 Algerie 3
 c:000202,c:01029e,c:030202,f:0001,p:Sonstige Astra
@@ -1682,9 +1598,6 @@ c:000021,c:010020,c:030021,f:0001,p:Sonstige Astra
 141b:00c00000:0403:0001:22:0
 8 TV RU
 c:000263,c:010277,c:030263,f:0001,p:Sonstige Astra
-1419:00c00000:0403:0001:22:0
-Juvelirochka
-c:0000c8,c:01012c,c:0300c8,f:0001,p:Sonstige Astra
 1417:00c00000:0403:0001:1:0
 TBN Russia
 c:0007e1,c:010bc9,c:0307e1,f:0001,p:Sonstige Astra
@@ -1841,6 +1754,9 @@ c:00019a,c:03019a,c:0401a5,f:0001,p:CS France,C:000c
 2335:00c00000:0442:0001:25:0
 CSTAR HD
 c:00051e,c:03051e,c:040529,f:0001,p:CS France,C:000c
+2016:00c00000:0430:0001:25:0
+DISNEY+ HD
+c:000582,c:01058d,c:030582,f:0001,p:CS France,C:000c
 21ff:00c00000:044c:0001:25:0
 ES1 HD
 c:000136,c:030136,c:040141,f:0001,p:CS France,C:000c
@@ -1873,9 +1789,6 @@ RTL9 HD
 c:000087,c:02027b,c:030087,c:04014f,f:0001,p:CS France,C:000e
 1969:00c00000:044e:0001:25:0
 SERIE CLUB HD
-c:0001fe,c:0301fe,c:040209,f:0001,p:CS France,C:000e
-200d:00c00000:0430:0001:25:0
-SUNDANCE TV HD
 c:0001fe,c:0301fe,c:040209,f:0001,p:CS France,C:000e
 26b1:00c00000:043e:0001:25:0
 TEVA HD
@@ -2006,9 +1919,6 @@ c:00051e,c:03051e,c:040529,f:0001,p:CS France,C:000e
 24be:00c00000:043c:0001:25:0
 EUROSPORT 2 HD
 c:000262,c:020281,c:030262,c:04026d,f:0001,p:CS France,C:000e
-196d:00c00000:044e:0001:25:0
-EXTREME SPORTS HD
-c:00038e,c:03038e,c:040399,f:0001,p:CS France,C:000e
 19d3:00c00000:0444:0001:25:0
 FOOT+ 24/24
 c:000456,c:010461,c:030456,f:0001,p:CS France,C:000c
@@ -2375,6 +2285,9 @@ c:0000a4,c:010060,c:0300a4,f:0001,p:Movistar+,C:0004
 7535:00c00000:0426:0001:25:0
 CUATRO HD
 c:0000a4,c:010068,c:0300a4,f:0001,p:Movistar+,C:0004
+7607:00c00000:0408:0001:1:0
+Disney+
+c:0000a2,c:010058,c:0300a2,f:0001,p:Movistar+,C:0006
 749a:00c00000:041c:0001:1:0
 DIVINITY
 c:0000a0,c:010050,c:020020,c:0300a0,f:0001,p:Movistar+,C:0006
@@ -2489,12 +2402,6 @@ c:0000a4,c:010068,c:02002c,c:0300a4,f:0001,p:Movistar+,C:0004
 746b:00c00000:03f0:0001:1:0
 DISNEY JR
 c:0000a5,c:010064,c:0300a5,f:0001,p:Movistar+,C:0006
-772a:00c00000:0416:0001:1:0
-DISNEY XD
-c:0000a3,c:01005c,c:020029,c:0300a3,f:0001,p:Movistar+,C:0006
-749d:00c00000:041c:0001:1:0
-M. DISNEY
-c:0000a3,c:01005c,c:0300a3,f:0001,p:Movistar+,C:0006
 7697:00c00000:041e:0001:1:0
 NICK JR
 c:0000b0,c:010062,c:0300b0,f:0001,p:Movistar+,C:0006
@@ -2826,7 +2733,7 @@ c:00083e,c:01083f,c:03083e,f:0001,p:Hotbird Erotic,C:000d
 Hustler HD
 c:00022f,c:01007c,c:03022f,f:0001,p:NC+,C:002f
 1d25:00820000:2fa8:013e:1:0
-BRAZZERS TV Europe
+Brazzers TV Europe
 c:001b59,c:011b63,c:021b6d,c:031b59,f:0001,p:Nova,C:0001
 421e:00820000:3db8:013e:22:0
 SCT
@@ -2918,9 +2825,6 @@ c:0000e5,c:010149,c:0300ce,f:0001,p:Sonstige Astra
 3333:00c00000:045b:0001:1:0
 VISIT-X.tv
 c:00042e,c:01042f,c:03042e,f:0001,p:Sonstige Astra
-12aa:00820000:3458:013e:1:0
-Arab Fun 2
-c:00081e,c:010c06,c:03081e,f:0001,p:Hotbird Sonst.
 36e5:00820000:06a4:013e:25:0
 SRF info HD
 c:00020a,c:01020b,c:02020f,c:03020a,c:04020d,f:0001,p:SF DRS
@@ -3317,9 +3221,6 @@ c:00040b,c:0104d3,c:03040b,f:0001,p:Hotbird Sonst.
 00df:00820000:0065:0001:1:0
 Radio Farda TV
 c:000618,c:0105fc,c:030618,f:0001,p:Hotbird Sonst.
-1d2e:00820000:2fa8:013e:1:0
-SAT 7 Pars
-c:001e79,c:011e83,c:031e79,f:0001,p:Hotbird Sonst.
 0e27:00820000:0708:00c8:25:0
 Simaye Azadi HD
 c:001856,c:011857,c:031856,f:0001,p:Hotbird Sonst.
@@ -3497,7 +3398,7 @@ c:000565,c:010566,c:030565,f:0001,p:Hotbird Sonst.
 02f5:00820000:1b58:013e:1:0
 Canale Italia 84
 c:00056f,c:010570,c:03056f,f:0001,p:Hotbird Sonst.
-2c2a:00820000:251c:1908:1:0
+2c2a:00820000:251c:1ee6:1:0
 ClassTvModa
 c:0000aa,c:01019c,c:0300aa,f:0001,p:Hotbird Sonst.
 4266:00820000:3db8:013e:22:0
@@ -3548,9 +3449,6 @@ c:0013ed,c:0113ee,c:0313ed,f:0001,p:Hotbird Sonst.
 0530:00820000:3d54:013e:22:0
 People TV
 c:0006cd,c:0106ce,c:0306cd,f:0001,p:Hotbird Sonst.
-132d:00820000:33f4:013e:1:0
-QVC
-c:000537,c:010538,c:030537,f:0001,p:Hotbird Sonst.
 030c:00820000:1b58:013e:1:0
 QVC Italia
 c:000537,c:010538,c:030537,f:0001,p:Hotbird Sonst.
@@ -3602,7 +3500,7 @@ c:000547,c:010548,c:030547,f:0001,p:Hotbird Sonst.
 0651:00820000:2454:013e:22:0
 TV Art Live
 c:00181b,c:01181c,c:03181b,f:0001,p:Hotbird Sonst.
-2bac:00820000:19c8:101e:1:0
+2bac:00820000:19c8:1e57:1:0
 TV2000
 c:0000a9,c:0101b4,c:0300a9,f:0001,p:Hotbird Sonst.
 425c:00820000:3db8:013e:22:0
@@ -3623,12 +3521,12 @@ c:000893,c:010891,c:030893,f:0001,p:Hotbird Sonst.
 0643:00820000:2454:013e:22:0
 Wine TV
 c:00178f,c:011790,c:03178f,f:0001,p:Hotbird Sonst.
-07d5:00820000:22c4:013e:22:0
-2M Monde
-c:000803,c:010804,c:030803,f:0001,p:Hotbird Sonst.
 06a9:00820000:3138:013e:1:0
 2M Monde
 c:000208,c:010212,c:030208,f:0001,p:Hotbird Sonst.
+07d5:00820000:22c4:013e:22:0
+2M Monde
+c:000803,c:010804,c:030803,f:0001,p:Hotbird Sonst.
 0650:00820000:2454:013e:25:0
 A3 HD
 c:001811,c:01029e,c:031811,f:0001,p:Hotbird Sonst.
@@ -3644,9 +3542,6 @@ c:000402,c:010403,c:030402,f:0001,p:Hotbird Sonst.
 0003:00820000:2e18:00b0:25:0
 Al Aoula Inter HD
 c:0003e9,c:010100,c:0303e9,f:0001,p:Hotbird Sonst.
-0002:00820000:2e18:00b0:25:0
-Al Aoula Inter+L HD
-c:000023,c:010024,c:030023,f:0001,p:Hotbird Sonst.
 2529:00820000:13ef:013e:25:0
 AL Arabia HD
 c:000203,c:010283,c:030203,f:0001,p:Hotbird Sonst.
@@ -3725,33 +3620,30 @@ c:000065,c:010066,c:030065,f:0001,p:Hotbird Sonst.
 02d7:00820000:1b58:013e:1:0
 El Sharq
 c:000468,c:010668,c:030468,f:0001,p:Hotbird Sonst.
-038e:00820000:2134:013e:1:0
-ESC
-c:00013c,c:010149,c:03013c,f:0001,p:Hotbird Sonst.
 0008:00820000:25e4:02be:1:0
 ESC
 c:000744,c:01071c,c:030744,f:0001,p:Hotbird Sonst.
+038e:00820000:2134:013e:1:0
+ESC
+c:00013c,c:010149,c:03013c,f:0001,p:Hotbird Sonst.
 232d:00820000:2328:013e:1:0
 FADAK TV
 c:00041b,c:01041c,c:031ffe,f:0001,p:Hotbird Sonst.
 252f:00820000:13ef:013e:25:0
 HRN TV HD
 c:001235,c:011236,c:031235,f:0001,p:Hotbird Sonst.
-1d33:00820000:2fa8:013e:1:0
-IMAM HUSSEIN 1
-c:001a2d,c:011a37,c:031a2d,f:0001,p:Hotbird Sonst.
 0005:00820000:25e4:02be:1:0
 IQRAA
 c:000618,c:0105f0,c:030618,f:0001,p:Hotbird Sonst.
 0216:00820000:0384:013e:25:0
 Iraqia News HD
 c:0014dd,c:0114de,c:0314dd,f:0001,p:Hotbird Sonst.
-0392:00820000:2134:013e:1:0
-JORDAN TV
-c:000140,c:01014d,c:030140,f:0001,p:Hotbird Sonst.
 0028:00820000:25e4:02be:1:0
 JORDAN TV
 c:000fdc,c:010fb4,c:030fdc,f:0001,p:Hotbird Sonst.
+0392:00820000:2134:013e:1:0
+JORDAN TV
+c:000140,c:01014d,c:030140,f:0001,p:Hotbird Sonst.
 44e2:00820000:0001:0001:1:0
 Kalemeh TV
 c:00040a,c:0104d2,c:03040a,f:0001,p:Hotbird Sonst.
@@ -3761,6 +3653,9 @@ c:010cf0,c:030c8c,f:0001,p:Hotbird Sonst.
 0322:00820000:0099:013e:25:0
 Kuwait TV1 HD
 c:00032c,c:010336,c:03032c,f:0001,p:Hotbird Sonst.
+0002:00820000:2e18:00b0:25:0
+Laayoune TV HD
+c:000023,c:010024,c:030023,f:0001,p:Hotbird Sonst.
 002b:00820000:25e4:02be:1:0
 Libya ALwatneh
 c:001108,c:0110e0,c:031108,f:0001,p:Hotbird Sonst.
@@ -3812,12 +3707,12 @@ c:0010a4,c:01107c,c:0310a4,f:0001,p:Hotbird Sonst.
 252c:00820000:13ef:013e:1:0
 Sky News Arabia
 c:0010d8,c:0110d9,c:0310d8,f:0001,p:Hotbird Sonst.
-0006:00820000:25e4:02be:1:0
-SUDAN TV
-c:00067c,c:010654,c:03067c,f:0001,p:Hotbird Sonst.
 038b:00820000:2134:013e:1:0
 SUDAN TV
 c:000139,c:010146,c:030139,f:0001,p:Hotbird Sonst.
+0006:00820000:25e4:02be:1:0
+SUDAN TV
+c:00067c,c:010654,c:03067c,f:0001,p:Hotbird Sonst.
 2336:00820000:2328:013e:25:0
 SYRIAN TV HD
 c:000475,c:010476,c:030475,f:0001,p:Hotbird Sonst.
@@ -4038,7 +3933,7 @@ c:00020b,c:0102f8,c:03020b,f:0001,p:Nova,C:0001
 ANT-1
 c:000203,c:0102a8,c:020243,c:030203,f:0001,p:Nova,C:0001
 012d:00820000:157c:013e:22:0
-MACEDONIA TV
+MAKEDONIA TV
 c:00020a,c:0102ee,c:03020a,f:0001,p:Nova,C:0001
 0179:00820000:1c84:013e:22:0
 MAD T.V
@@ -4079,6 +3974,9 @@ c:000203,c:0102a8,c:030203,f:0001,p:Nova,C:0001
 0147:00820000:157c:013e:25:0
 Nova Cinema 4 HD
 c:00021c,c:03021c,c:04030c,f:0001,p:Nova,C:0001
+013e:00820000:157c:013e:25:0
+Nova Cinema Extra HD
+c:00020f,c:03020f,c:04030d,f:0001,p:Nova,C:0001
 016a:00820000:1c84:013e:25:0
 Nova Summer HD
 c:000201,c:010294,c:030201,f:0001,p:Nova,C:0001
@@ -4130,9 +4028,6 @@ c:000207,c:0102d0,c:030207,f:0001,p:Nova,C:0001
 3c94:00820000:02c7:013e:25:0
 Nova Sports HD
 c:00033f,c:010340,c:03033f,f:0001,p:Nova,C:0001
-013e:00820000:157c:013e:25:0
-Novasports Extra 1 HD
-c:00020f,c:03020f,c:04030d,f:0001,p:Nova,C:0001
 0164:00820000:1c84:013e:25:0
 Novasports Extra 2 HD
 c:000201,c:010294,c:030201,f:0001,p:Nova,C:0001
@@ -4164,7 +4059,7 @@ c:0000a8,c:010070,c:020038,c:0300a8,f:0001,p:NC+,C:002f
 Dorcel TV HD
 c:000191,c:010192,c:030191,f:0001,p:Nova,C:002f
 1d25:00820000:2fa8:013e:1:0
-BRAZZERS TV Europe
+Brazzers TV Europe
 c:001b59,c:011b63,c:021b6d,c:031b59,f:0001,p:Nova,C:0001
 4220:00820000:2f44:013e:25:0
 Hustler HD
@@ -4364,6 +4259,9 @@ c:000186,c:010187,c:020189,c:030186,f:0001,p:Polsat,C:0005
 1c85:00820000:1ce8:0071:22:0
 Polsat Romans
 c:000605,c:010606,c:030605,f:0001,p:Polsat,C:002e
+3e30:00820000:2ee0:013e:25:0
+Polsat Seriale HD
+c:000820,c:010920,c:020922,c:030820,f:0001,p:Polsat,C:0005
 3e20:00820000:2ee0:013e:25:0
 SciFi HD
 c:000104,c:010204,c:0207ed,c:030104,f:0001,p:Polsat,C:002e
@@ -4515,7 +4413,7 @@ c:000209,c:0102e4,c:030209,f:0001,p:NC+,C:002f
 Discovery Science HD
 c:00006d,c:0100d1,c:03006d,f:0001,p:Polsat,C:002e
 3e22:00820000:2ee0:013e:25:0
-H2 HD
+History 2 HD
 c:000106,c:010206,c:030106,f:0001,p:Polsat,C:002e
 0c2f:00820000:0065:013e:25:0
 History HD
@@ -4658,9 +4556,9 @@ c:000110,c:010111,c:030110,f:0001,p:Polsat,C:0006
 13f4:00820000:05dc:013e:22:0
 Fox Polska
 c:0000a7,c:01006c,c:0300a7,f:0001,p:NC+,C:0006
-3d56:00820000:2c88:013e:22:0
-Discovery Life
-c:0000a1,c:0300a1,c:040054,f:0001,p:NC+,C:002e
+3d56:00820000:2c88:013e:25:0
+Discovery Life HD
+c:0000a1,c:0300a1,c:040054,f:0001,p:NC+,C:002f
 3607:00820000:00c8:013e:1:0
 Eurosport
 c:000a11,c:010a02,c:020a12,c:030a11,f:0001,p:NC+,C:00af
@@ -4901,6 +4799,9 @@ c:0000a4,c:0201f9,c:0300a4,c:040060,f:0001,p:NC+,C:002e
 12c4:00820000:2e7c:013e:25:0
 TVR
 c:0000a3,c:01005c,c:0300a3,f:0001,p:NC+,C:0026
+3d57:00820000:2c88:013e:25:0
+BIZNES24 HD
+c:0000a2,c:010058,c:0300a2,f:0001,p:NC+,C:002c
 2011:00820000:24b8:013e:1:0
 CNNi
 c:0000a8,c:010070,c:020038,c:0300a8,f:0001,p:NC+,C:002f
@@ -4956,7 +4857,7 @@ c:00006d,c:0100d1,c:03006d,f:0001,p:Polsat,C:002e
 DTX HD
 c:0000a3,c:01005c,c:0300a3,c:04005c,f:0001,p:NC+,C:002e
 3e22:00820000:2ee0:013e:25:0
-H2 HD
+History 2 HD
 c:000106,c:010206,c:030106,f:0001,p:Polsat,C:002e
 0c2f:00820000:0065:013e:25:0
 History HD
@@ -5171,9 +5072,9 @@ c:000110,c:010111,c:030110,f:0001,p:Polsat,C:0006
 13f4:00820000:05dc:013e:22:0
 Fox Polska
 c:0000a7,c:01006c,c:0300a7,f:0001,p:NC+,C:0006
-3d56:00820000:2c88:013e:22:0
-Discovery Life
-c:0000a1,c:0300a1,c:040054,f:0001,p:NC+,C:002e
+3d56:00820000:2c88:013e:25:0
+Discovery Life HD
+c:0000a1,c:0300a1,c:040054,f:0001,p:NC+,C:002f
 1c8b:00820000:1ce8:0071:22:0
 Nat Geo Wild
 c:000153,c:010154,c:030153,f:0001,p:Polsat,C:0006
@@ -5219,9 +5120,6 @@ c:0001f5,c:0101f6,c:0301f5,f:0001,p:ARD Digital
 6d68:00c00000:0437:0001:1:0
 KiKA
 c:000136,c:010140,c:02014a,c:030136,f:0001,p:ZDF Vision
-0025:00c00000:000f:0085:1:0
-Sky Sport News
-c:0002ff,c:010300,c:0302ff,f:0001,p:Sky Deutschland
 6f47:00c00000:0445:0001:1:0
 ARD-alpha
 c:000579,c:01057a,c:030579,f:0001,p:ARD Digital
@@ -5867,6 +5765,9 @@ c:0101b2,c:0301b2,f:0001,p:ORF
 3342:00c00000:045b:0001:2:0
 OE1 DD
 c:0201a6,c:0301a6,f:0001,p:ORF
+1646:00c00000:042c:0001:2:0
+VRT Radio 1
+c:010065,c:030065,f:0001,p:TV Vlaanderen
 101a:00c00000:0451:0035:2:0
 VRT Radio1
 c:0100a2,c:0300a2,f:0001,p:TV Vlaanderen
@@ -6620,13 +6521,10 @@ c:01006b,c:03006b,f:0001,p:Hotbird Radio
 0300:00820000:1b58:013e:2:0
 Discoradio
 c:010070,c:030070,f:0001,p:Hotbird Radio
-0e42:00820000:1c20:013e:2:0
-DISCORADIO
-c:010dd3,c:030dd3,f:0001,p:Hotbird Radio
-2b7b:00820000:19c8:101e:2:0
+2b7b:00820000:19c8:1e57:2:0
 InBlu
 c:0101b0,c:0301b0,f:0001,p:Hotbird Radio
-2ba6:00820000:19c8:101e:2:0
+2ba6:00820000:19c8:1e57:2:0
 INBLU2000
 c:0101b2,c:0301b2,f:0001,p:Hotbird Radio
 0e45:00820000:1c20:013e:2:0
@@ -6719,7 +6617,7 @@ c:0107bf,c:0307bf,f:0001,p:Hotbird Radio
 0e35:00820000:1c20:013e:2:0
 Radio Sportiva
 c:010db8,c:030db8,f:0001,p:Hotbird Radio
-2bad:00820000:19c8:101e:2:0
+2bad:00820000:19c8:1e57:2:0
 Radio Vaticana Europa
 c:0101b1,c:0301b1,f:0001,p:Hotbird Radio
 0e3b:00820000:1c20:013e:2:0
