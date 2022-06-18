@@ -204,9 +204,6 @@ transponders
 00820000:2328:013e
 	s 12520000:27500000:1:4:130:0:0:1:1:0:2
 /
-00820000:238c:013e
-	s 12539000:30000000:0:4:130:0:0:1:2:0:2
-/
 00820000:23f0:013e
 	s 12558000:27500000:1:4:130:0:0:1:2:0:2
 /
@@ -242,9 +239,6 @@ transponders
 /
 00c00000:0421:0001
 	s 10832000:22000000:0:2:192:0:0:1:2:0:2
-/
-00c00000:0422:0001
-	s 10847000:22000000:1:4:192:0:0
 /
 00c00000:0424:0001
 	s 10876000:22000000:1:4:192:0:0
@@ -620,7 +614,7 @@ c:000aff,c:010b00,c:030aff,f:0001,p:Sonstige Astra
 3146:00c00000:0459:0001:22:0
 rhein main tv
 c:0000d0,c:010134,c:0201fc,c:0300d0,f:0001,p:Sonstige Astra
-002f:00c00000:0021:0085:1:0
+002f:00c00000:0021:0085:22:0
 REGIO TV
 c:0007ff,c:010800,c:0307ff,f:0001,p:Sonstige Astra
 7a4c:00c00000:0410:0001:25:0
@@ -644,7 +638,7 @@ c:000c30,c:010c31,c:030c30,f:0001,p:Österreich
 33a9:00c00000:03eb:0001:25:0
 Schau TV HD
 c:0008ca,c:0108cb,c:0208cf,c:0308ca,f:0001,p:Österreich
-3355:00c00000:045b:0001:1:0
+3355:00c00000:045b:0001:22:0
 TV1 OOE
 c:00096a,c:01096b,c:03096a,f:0001,p:Österreich
 3401:00c00000:03ed:0001:22:0
@@ -779,6 +773,9 @@ c:0003ff,c:0303ff,c:040403,f:0001,p:Sonstige Astra
 1406:00c00000:0403:0001:22:0
 Kaufbei.tv
 c:0019c9,c:0119d3,c:0319c9,f:0001,p:Sonstige Astra
+1681:00c00000:042c:0001:22:0
+Kaufbei.TV
+c:0002ff,c:010300,c:0302ff,f:0001,p:Sonstige Astra
 0307:00c00000:0007:0085:1:0
 MediaShop
 c:0004ff,c:010500,c:0304ff,f:0001,p:Sonstige Astra
@@ -1335,7 +1332,7 @@ c:000232,c:010233,c:020237,c:030232,f:0001,p:SF DRS,C:0808
 MTV HD
 c:0003ff,c:0303ff,c:040403,f:0001,p:HD+,C:0084
 3404:00c00000:03ed:0001:22:0
-gotv
+Stimmungsgarten TV
 c:000c58,c:010c59,c:030c58,f:0001,p:Musik
 157f:00c00000:041f:0001:25:0
 Deluxe Music HD
@@ -1418,6 +1415,9 @@ c:00082b,c:01082c,c:03082b,f:0001,p:Sonstige Astra
 2753:00c00000:0402:0001:1:0
 Bloomberg Europe TV
 c:000550,c:010528,c:020025,c:030550,f:0001,p:Sonstige Astra
+1c20:00c00000:0457:0001:1:0
+Bloomberg Europe TV
+c:000030,c:010e26,c:030030,f:0001,p:Sonstige Astra
 1a92:00c00000:0452:0001:25:0
 CGTN Documentary HD
 c:001aa5,c:011aa6,c:031aa5,f:0001,p:Sonstige Astra
@@ -1447,7 +1447,7 @@ SBN International
 c:0007d1,c:010bb9,c:0307d1,f:0001,p:Sonstige Astra
 1c7a:00c00000:0457:0001:1:0
 Sky News Intl
-c:00050a,c:0108f2,c:031ffe,c:0400ff,f:0001,p:Sonstige Astra
+c:00050a,c:0108f2,c:03050a,c:0400ff,f:0001,p:Sonstige Astra
 2760:00c00000:0402:0001:1:0
 Sonlife Broadcasting Network
 c:00041b,c:01041c,c:03041b,f:0001,p:Sonstige Astra
@@ -1472,9 +1472,6 @@ c:00025d,c:010271,c:03025d,f:0001,p:Sonstige Astra
 7a4b:00c00000:0410:0001:22:0
 I24 Francis
 c:000439,c:011010,c:030439,f:0001,p:Sonstige Astra
-2331:00c00000:0442:0001:25:0
-LCI HD
-c:00038e,c:03038e,c:040399,f:0001,p:CS France
 2337:00c00000:0442:0001:25:0
 LCP HD
 c:0005e6,c:0305e6,c:041401,f:0001,p:CS France
@@ -1496,11 +1493,8 @@ c:0000ac,c:010080,c:031434,f:0001,p:Movistar+
 7729:00c00000:0416:0001:1:0
 CANAL SUR A.
 c:0000a6,c:010068,c:03142e,f:0001,p:Movistar+
-1b60:00c00000:03fc:0001:1:0
-Cubavision Internacional
-c:0002c4,c:0102d8,c:0302c4,f:0001,p:Sonstige Astra
-1647:00c00000:042c:0001:1:0
-Cubavision Internacional
+1647:00c00000:042c:0001:25:0
+Cubavision Internacional HD
 c:0002c4,c:0102d8,c:0302c4,f:0001,p:Sonstige Astra
 18f0:00c00000:03f4:0001:22:0
 EXTREMADURA SAT
@@ -1521,6 +1515,9 @@ c:001a14,c:011a15,c:031a14,f:0001,p:Sonstige Astra
 Nickelodeon Ukraine Pluto TV
 c:000fab,c:010fac,c:030fab,f:0001,p:Sonstige Astra
 15e1:00c00000:0403:0001:22:0
+TVRUS
+c:0000ff,c:010100,c:0300ff,f:0001,p:Sonstige Astra
+1677:00c00000:042c:0001:22:0
 TVRUS
 c:0000ff,c:010100,c:0300ff,f:0001,p:Sonstige Astra
 1659:00c00000:042c:0001:1:0
@@ -1915,7 +1912,7 @@ FRANCEINFO: HD
 c:0001fe,c:0301fe,c:040209,f:0001,p:CS France,C:000c
 2331:00c00000:0442:0001:25:0
 LCI HD
-c:00038e,c:03038e,c:040399,f:0001,p:CS France
+c:00038e,c:03038e,c:040399,f:0001,p:CS France,C:000c
 2337:00c00000:0442:0001:25:0
 LCP HD
 c:0005e6,c:0305e6,c:041401,f:0001,p:CS France
@@ -2378,12 +2375,12 @@ c:0000a4,c:010060,c:02002c,c:03142c,f:0001,p:Movistar+,C:0006
 78b6:00c00000:03ec:0001:25:0
 M. SERIES HD
 c:0000a2,c:0300a2,c:040058,f:0001,p:Movistar+,C:0004
-749d:00c00000:041c:0001:1:0
-M+ SAGAS
-c:0000a3,c:01005c,c:020029,c:03142b,f:0001,p:Movistar+,C:0006
 788c:00c00000:0414:0001:25:0
 M+ #0 HD
 c:0000a5,c:0300a5,c:04006e,f:0001,p:Movistar+,C:0004
+749d:00c00000:041c:0001:1:0
+M+ CRIMEN
+c:0000a3,c:01005c,c:020029,c:03142b,f:0001,p:Movistar+,C:0006
 78b5:00c00000:03ec:0001:25:0
 M+ ELLAS #V HD
 c:0000a1,c:010054,c:020023,c:0300a1,f:0001,p:Movistar+,C:0004
@@ -2876,7 +2873,7 @@ c:00042e,c:01042f,c:03042e,f:0001,p:Sonstige Astra
 4336:00820000:300c:013e:25:0
 SRF info HD
 c:00020a,c:01020b,c:02020f,c:03020a,f:0001,p:SF DRS
-02d3:00820000:1b58:013e:22:0
+02d3:00820000:1b58:013e:1:0
 Sender Neu Jerusalem
 c:000159,c:01015a,c:030159,f:0001,p:Hotbird Sonst.
 0e81:00820000:3200:013e:25:0
@@ -2936,13 +2933,7 @@ c:0000d7,c:0100eb,c:0300d7,f:0001,p:Hotbird Sonst.
 0bc3:00820000:20d0:013e:25:0
 Fashion TV HD
 c:00006f,c:010070,c:03006f,f:0001,p:Hotbird Sonst.
-044d:00820000:238c:013e:25:0
-Fashion TV HD
-c:00006f,c:010070,c:03006f,f:0001,p:Hotbird Sonst.
 0bc2:00820000:20d0:013e:22:0
-FashionTV L'Original
-c:000065,c:010066,c:030065,f:0001,p:Hotbird Sonst.
-044c:00820000:238c:013e:22:0
 FashionTV L'Original
 c:000065,c:010066,c:030065,f:0001,p:Hotbird Sonst.
 0328:00820000:0099:013e:25:0
@@ -2976,7 +2967,7 @@ c:0014d3,c:0114d4,c:0314d3,f:0001,p:Hotbird Sonst.
 PRESS TV HD
 c:00051e,c:01051f,c:03051e,f:0001,p:Hotbird Sonst.
 09c4:00820000:2db4:013e:22:0
-RADA eng
+ICTV Ukraine
 c:0009c6,c:0109c7,c:0309c6,f:0001,p:Hotbird Sonst.
 39d2:00820000:1fa4:013e:1:0
 Revival TV
@@ -3068,8 +3059,8 @@ c:000203,c:0102a8,c:030203,f:0001,p:Hotbird Sonst.
 05fc:00820000:2c24:013e:22:0
 HISPAN TV
 c:000528,c:010529,c:030528,f:0001,p:Hotbird Sonst.
-030f:00820000:1f40:013e:1:0
-Telesur
+030f:00820000:1f40:013e:25:0
+Telesur HD
 c:000835,c:010836,c:030835,f:0001,p:Hotbird Sonst.
 0dad:00820000:1f40:013e:25:0
 TVE Internacional HD
@@ -3080,9 +3071,9 @@ c:0000c9,c:01012d,c:020191,c:0300c9,f:0001,p:Hotbird Sonst.
 03e8:00820000:005e:0055:22:0
 1+1
 c:0003ea,c:0103eb,c:0303ea,f:0001,p:Hotbird Sonst.
-4233:00820000:2f44:013e:22:0
-1+1 International
-c:0005bf,c:0105c0,c:0305bf,f:0001,p:Hotbird Sonst.
+06b0:00820000:3138:013e:1:0
+7D7
+c:0004c4,c:0104ce,c:0304c4,f:0001,p:Hotbird Sonst.
 06b6:00820000:3138:013e:1:0
 8 TV RU
 c:00071c,c:010726,c:03071c,f:0001,p:Hotbird Sonst.
@@ -3092,7 +3083,7 @@ c:000579,c:01057a,c:030579,f:0001,p:Hotbird Sonst.
 2332:00820000:2328:013e:1:0
 BogBlagTV
 c:00044d,c:01044e,c:031ffe,f:0001,p:Hotbird Sonst.
-089a:00820000:01f4:013e:1:0
+089a:00820000:01f4:013e:22:0
 CBC_Azerbaycan
 c:0007d2,c:010bba,c:0307d2,f:0001,p:Hotbird Sonst.
 036c:00820000:001a:0888:25:0
@@ -3128,21 +3119,18 @@ c:001f42,c:011fa6,c:031f42,f:0001,p:Hotbird Sonst.
 0001:00820000:0065:0001:25:0
 Nastoyashcheye Vremya
 c:000488,c:010460,c:030488,f:0001,p:Hotbird Sonst.
+0011:00820000:1964:013e:22:0
+Nickelodeon Ukraine Pluto
+c:00087b,c:01087c,c:03087b,f:0001,p:Polsat
 366a:00820000:00c8:013e:1:0
 NOVIY_MIR
 c:000200,c:011010,c:030200,f:0001,p:Hotbird Sonst.
-332f:00820000:1388:013e:25:0
-POBEDA TV HD
-c:000406,c:010407,c:030406,f:0001,p:Hotbird Sonst.
-0438:00820000:005e:0055:22:0
-Rada
-c:00043a,c:01043b,c:03043a,f:0001,p:Hotbird Sonst.
 4232:00820000:2f44:013e:22:0
 RADA
 c:0005b5,c:0105b6,c:0305b5,f:0001,p:Hotbird Sonst.
-09b0:00820000:2db4:013e:22:0
-RADA rus
-c:0009b2,c:0109b3,c:0309b2,f:0001,p:Hotbird Sonst.
+0438:00820000:005e:0055:22:0
+Rada
+c:00043a,c:01043b,c:03043a,f:0001,p:Hotbird Sonst.
 05f7:00820000:2c24:013e:22:0
 SAHAR AZARI
 c:0004f6,c:0104f7,c:0304f6,f:0001,p:Hotbird Sonst.
@@ -3425,9 +3413,6 @@ c:0005a1,c:0105a2,c:0305a1,f:0001,p:Hotbird Sonst.
 0642:00820000:2454:013e:22:0
 Italian Fishing TV
 c:001785,c:011786,c:031785,f:0001,p:Hotbird Sonst.
-132e:00820000:33f4:013e:22:0
-Juwelo TV
-c:000ee2,c:010eec,c:030ee2,f:0001,p:Hotbird Sonst.
 0531:00820000:3d54:013e:22:0
 La C sat
 c:0006af,c:0106b0,c:0306af,f:0001,p:Hotbird Sonst.
@@ -3572,9 +3557,6 @@ c:0010f5,c:0110f6,c:0310f5,f:0001,p:Hotbird Sonst.
 2526:00820000:13ef:013e:25:0
 AL SHARQIYA HD
 c:000071,c:01004e,c:030071,f:0001,p:Hotbird Sonst.
-008b:00820000:2c24:013e:25:0
-ALALAM HD
-c:00056e,c:01056f,c:03056e,f:0001,p:Hotbird Sonst.
 232e:00820000:2328:013e:25:0
 AlAraby TV HD
 c:000425,c:010426,c:030425,f:0001,p:Hotbird Sonst.
@@ -3617,9 +3599,6 @@ c:001807,c:0102a8,c:031807,f:0001,p:Hotbird Sonst.
 036d:00820000:001a:0888:25:0
 CGTN A HD
 c:000206,c:0102c6,c:030206,f:0001,p:Hotbird Sonst.
-253a:00820000:13ef:013e:1:0
-Dubai Holy Quran Award
-c:000132,c:010196,c:030132,f:0001,p:Hotbird Sonst.
 0389:00820000:2134:013e:25:0
 Dubai International HD
 c:000065,c:010066,c:030065,f:0001,p:Hotbird Sonst.
@@ -3878,9 +3857,6 @@ c:00020a,c:0102ee,c:02024a,c:03020a,f:0001,p:Nova,C:0001
 1c8a:00820000:1ce8:0071:25:0
 CNN Europe HD
 c:000118,c:010119,c:030118,f:0001,p:Polsat,C:002d
-1bc8:00820000:003d:013e:25:0
-CNNi HD
-c:000209,c:0102e5,c:030209,f:0001,p:Nova,C:0001
 0161:00820000:1c84:013e:22:0
 ERT World Europe
 c:000202,c:01029e,c:020021,c:030202,f:0001,p:Nova
@@ -4022,6 +3998,15 @@ c:000207,c:0102d0,c:030207,f:0001,p:Nova,C:0001
 0199:00820000:1518:013e:25:0
 Nova Sports 6 HD
 c:0000d0,c:010135,c:0300d0,f:0001,p:Nova,C:0081
+019f:00820000:1518:013e:25:0
+Nova Sports Extra 1 HD
+c:0000d7,c:01013c,c:0300d7,f:0001,p:Nova,C:0001
+013e:00820000:157c:013e:25:0
+Nova Sports Extra 2 HD
+c:00020f,c:01030d,c:03020f,f:0001,p:Nova,C:0001
+017d:00820000:1c84:013e:25:0
+Nova Sports Extra 3 HD
+c:000211,c:010352,c:030211,f:0001,p:Nova,C:0001
 1bc4:00820000:003d:013e:25:0
 Nova Sports News HD
 c:000205,c:0102bc,c:030205,f:0001,p:Nova,C:0001
@@ -4352,9 +4337,6 @@ c:0000ab,c:0300ab,c:04007c,f:0001,p:NC+,C:002e
 3305:00820000:0190:013e:25:0
 Eurosport HD
 c:000bb8,c:010c81,c:030bb8,f:0001,p:NC+,C:00af
-3e25:00820000:2ee0:013e:25:0
-Eurosport 1 HD
-c:000108,c:010208,c:030108,f:0001,p:Polsat,C:002e
 3b67:00820000:012c:013e:25:0
 Eurosport 1 Poland HD
 c:0001fb,c:010303,c:0301fb,f:0001,p:Polsat,C:002d
@@ -4487,9 +4469,6 @@ c:0000cc,c:010130,c:0300cc,f:0001,p:Polsat,C:002e
 3b6a:00820000:012c:013e:25:0
 Science Poland HD
 c:0001fe,c:010321,c:02024e,c:0301fe,f:0001,p:Polsat,C:002d
-3e21:00820000:2ee0:013e:25:0
-TLC Poland HD
-c:000105,c:030105,c:040205,f:0001,p:Polsat,C:000e
 3b6b:00820000:012c:013e:25:0
 Turbo Xtra Poland HD
 c:0001ff,c:01032b,c:02024f,c:0301ff,f:0001,p:Polsat,C:002d
@@ -4588,7 +4567,7 @@ Nickelodeon PL
 c:0004a7,c:0104a8,c:0304a7,f:0001,p:Polsat,C:002f
 0011:00820000:1964:013e:22:0
 Nickelodeon Ukraine Pluto
-c:00087b,c:01087c,c:03087b,f:0001,p:Polsat,C:002c
+c:00087b,c:01087c,c:03087b,f:0001,p:Polsat
 000e:00820001:1964:013e:25:0
 Nicktoons HD
 c:00085d,c:020866,c:03085d,c:040860,f:0001,p:Polsat,C:00ae
@@ -5051,9 +5030,6 @@ c:0000a5,c:0300a5,c:040064,f:0001,p:NC+,C:002e
 3305:00820000:0190:013e:25:0
 Eurosport HD
 c:000bb8,c:010c81,c:030bb8,f:0001,p:NC+,C:00af
-3e25:00820000:2ee0:013e:25:0
-Eurosport 1 HD
-c:000108,c:010208,c:030108,f:0001,p:Polsat,C:002e
 290c:00820000:1edc:0071:25:0
 Eurosport 2 HD
 c:00006c,c:0100d0,c:03006c,f:0001,p:Polsat,C:002e
@@ -5543,6 +5519,18 @@ f:0001,p:Astra-Test
 6ed2:00c00000:03fd:0001:25:0
 WDR Mediathek (Internet)
 c:00014b,c:01014c,c:03014b,f:0001,p:ARD Digital
+28d3:00c00000:040f:0001:2:0
+1LIVE
+c:030259,c:040259,f:0001,p:Astra Radio
+28d9:00c00000:040f:0001:2:0
+1LIVE diGGi
+c:030295,c:040295,f:0001,p:Astra Radio
+00aa:00c00000:0007:0085:2:0
+ANTENNE BAYERN
+c:010160,c:030160,f:0001,p:Astra Radio
+28f6:00c00000:0425:0001:2:0
+Antenne Brandenburg
+c:030399,c:040399,f:0001,p:Astra Radio
 28a0:00c00000:040f:0001:2:0
 Bayern 1
 c:030065,c:040065,f:0001,p:Astra Radio
@@ -5552,192 +5540,42 @@ c:03006f,c:04006f,f:0001,p:Astra Radio
 28a2:00c00000:040f:0001:2:0
 BAYERN 3
 c:030079,c:040079,f:0001,p:Astra Radio
-28a3:00c00000:040f:0001:2:0
-BR-KLASSIK
-c:030083,c:040083,f:0001,p:Astra Radio
+28a8:00c00000:040f:0001:2:0
+BR Heimat
+c:0300b5,c:0400b5,f:0001,p:Astra Radio
+28a6:00c00000:040f:0001:2:0
+BR Schlager
+c:0300a1,c:0400a1,f:0001,p:Astra Radio
 28a4:00c00000:040f:0001:2:0
 BR24
 c:03008d,c:04008d,f:0001,p:Astra Radio
 28a5:00c00000:040f:0001:2:0
 BR24live
 c:030097,c:040097,f:0001,p:Astra Radio
-28a6:00c00000:040f:0001:2:0
-BR Schlager
-c:0300a1,c:0400a1,f:0001,p:Astra Radio
-28a7:00c00000:040f:0001:2:0
-PULS
-c:0300ab,c:0400ab,f:0001,p:Astra Radio
-28a8:00c00000:040f:0001:2:0
-BR Heimat
-c:0300b5,c:0400b5,f:0001,p:Astra Radio
 28ba:00c00000:040f:0001:2:0
 Bremen Eins
 c:03012d,c:04012d,f:0001,p:Astra Radio
-28bb:00c00000:040f:0001:2:0
-Bremen Zwei
-c:030137,c:040137,f:0001,p:Astra Radio
 28bd:00c00000:040f:0001:2:0
 Bremen NEXT
 c:03014b,c:04014b,f:0001,p:Astra Radio
 28bc:00c00000:040f:0001:2:0
 Bremen Vier
 c:030141,c:040141,f:0001,p:Astra Radio
-28e1:00c00000:0425:0001:2:0
-hr1
-c:0302bd,c:0402bd,f:0001,p:Astra Radio
-28e2:00c00000:0425:0001:2:0
-hr2
-c:0302c7,c:0402c7,f:0001,p:Astra Radio
-28e3:00c00000:0425:0001:2:0
-hr3
-c:0302d1,c:0402d1,f:0001,p:Astra Radio
-28e4:00c00000:0425:0001:2:0
-hr4
-c:0302db,c:0402db,f:0001,p:Astra Radio
-28e5:00c00000:0425:0001:2:0
-YOU FM
-c:0302e5,c:0402e5,f:0001,p:Astra Radio
-28e6:00c00000:0425:0001:2:0
-hr-iNFO
-c:0302ef,c:0402ef,f:0001,p:Astra Radio
-28ea:00c00000:0425:0001:2:0
-MDR SACHSEN DD
-c:030321,c:040321,f:0001,p:Astra Radio
-28eb:00c00000:0425:0001:2:0
-MDR S-ANHALT MD
-c:03032b,c:04032b,f:0001,p:Astra Radio
-28ec:00c00000:0425:0001:2:0
-MDR THÜR Mitte-W
-c:030335,c:040335,f:0001,p:Astra Radio
-28ed:00c00000:0425:0001:2:0
-MDR KULTUR
-c:03033f,c:04033f,f:0001,p:Astra Radio
-28ee:00c00000:0425:0001:2:0
-MDR JUMP
-c:030349,c:040349,f:0001,p:Astra Radio
-28ef:00c00000:0425:0001:2:0
-MDR SPUTNIK
-c:030353,c:040353,f:0001,p:Astra Radio
-28f0:00c00000:0425:0001:2:0
-MDR AKTUELL
-c:03035d,c:04035d,f:0001,p:Astra Radio
-28f1:00c00000:0425:0001:2:0
-MDR KLASSIK
-c:030367,c:040367,f:0001,p:Astra Radio
-28f4:00c00000:0425:0001:2:0
-Inforadio
-c:030385,c:040385,f:0001,p:Astra Radio
-28b1:00c00000:040f:0001:2:0
-NDR1 Welle Nord KI
-c:0300fb,c:0400fb,f:0001,p:Astra Radio
-28b2:00c00000:040f:0001:2:0
-NDR 1 Radio MV SN
-c:030105,c:040105,f:0001,p:Astra Radio
-28b3:00c00000:040f:0001:2:0
-NDR 1 Nieders. HAN
-c:03010f,c:04010f,f:0001,p:Astra Radio
-28ac:00c00000:040f:0001:2:0
-NDR 2 NDS
-c:0300c9,c:0400c9,f:0001,p:Astra Radio
-28ad:00c00000:040f:0001:2:0
-NDR Kultur
-c:0300d5,c:0400d5,f:0001,p:Astra Radio
-28ae:00c00000:040f:0001:2:0
-NDR Info NDS
-c:0300dd,c:0400dd,f:0001,p:Astra Radio
-28af:00c00000:040f:0001:2:0
-N-JOY
-c:0300e7,c:0400e7,f:0001,p:Astra Radio
-28b0:00c00000:040f:0001:2:0
-NDR 90,3
-c:0300f1,c:0400f1,f:0001,p:Astra Radio
-28b4:00c00000:040f:0001:2:0
-NDR Info Spezial
-c:030119,c:040119,f:0001,p:Astra Radio
-28b5:00c00000:040f:0001:2:0
-NDR Blue
-c:030123,c:040123,f:0001,p:Astra Radio
-28b6:00c00000:040f:0001:2:0
-NDR Schlager
-c:030128,c:040128,f:0001,p:Astra Radio
-28f5:00c00000:0425:0001:2:0
-rbbKultur
-c:03038f,c:04038f,f:0001,p:Astra Radio
-28f6:00c00000:0425:0001:2:0
-Antenne Brandenburg
-c:030399,c:040399,f:0001,p:Astra Radio
-28f7:00c00000:0425:0001:2:0
-rbb 88.8
-c:0303a3,c:0403a3,f:0001,p:Astra Radio
-28f8:00c00000:0425:0001:2:0
-radioeins
-c:0303ad,c:0403ad,f:0001,p:Astra Radio
-28f9:00c00000:0425:0001:2:0
-Fritz
-c:0303b7,c:0403b7,f:0001,p:Astra Radio
-28c0:00c00000:040f:0001:2:0
-SR 1 Europawelle
-c:030191,c:040191,f:0001,p:Astra Radio
-28c1:00c00000:040f:0001:2:0
-SR 2 KulturRadio
-c:03019b,c:04019b,f:0001,p:Astra Radio
-28c2:00c00000:040f:0001:2:0
-SR 3 Saarlandwelle
-c:0301a5,c:0401a5,f:0001,p:Astra Radio
-28c8:00c00000:040f:0001:2:0
-SWR1 BW
-c:0301f5,c:0401f5,f:0001,p:Astra Radio
-28c9:00c00000:040f:0001:2:0
-SWR1 RP
-c:0301ff,c:0401ff,f:0001,p:Astra Radio
-28ca:00c00000:040f:0001:2:0
-SWR2
-c:030209,c:040209,f:0001,p:Astra Radio
-28cb:00c00000:040f:0001:2:0
-SWR3
-c:030213,c:040213,f:0001,p:Astra Radio
-28cc:00c00000:040f:0001:2:0
-SWR4 BW
-c:03021d,c:04021d,f:0001,p:Astra Radio
-28cd:00c00000:040f:0001:2:0
-SWR4 RP
-c:030227,c:040227,f:0001,p:Astra Radio
-28ce:00c00000:040f:0001:2:0
-DASDING
-c:030231,c:040231,f:0001,p:Astra Radio
-28cf:00c00000:040f:0001:2:0
-SWR Aktuell
-c:03023b,c:04023b,f:0001,p:Astra Radio
-28d3:00c00000:040f:0001:2:0
-1LIVE
-c:030259,c:040259,f:0001,p:Astra Radio
-28d4:00c00000:040f:0001:2:0
-WDR 2 Rheinland
-c:030263,c:040263,f:0001,p:Astra Radio
-28d5:00c00000:040f:0001:2:0
-WDR 3
-c:03026d,c:04026d,f:0001,p:Astra Radio
-28d6:00c00000:040f:0001:2:0
-WDR 4
-c:030277,c:040277,f:0001,p:Astra Radio
-28d7:00c00000:040f:0001:2:0
-WDR 5
-c:030281,c:040281,f:0001,p:Astra Radio
+28bb:00c00000:040f:0001:2:0
+Bremen Zwei
+c:030137,c:040137,f:0001,p:Astra Radio
+28a3:00c00000:040f:0001:2:0
+BR-KLASSIK
+c:030083,c:040083,f:0001,p:Astra Radio
 28d8:00c00000:040f:0001:2:0
 COSMO
 c:03028b,c:04028b,f:0001,p:Astra Radio
-28d9:00c00000:040f:0001:2:0
-1LIVE diGGi
-c:030295,c:040295,f:0001,p:Astra Radio
+28ce:00c00000:040f:0001:2:0
+DASDING
+c:030231,c:040231,f:0001,p:Astra Radio
 28da:00c00000:040f:0001:2:0
 Die Maus
 c:03029f,c:04029f,f:0001,p:Astra Radio
-28db:00c00000:040f:0001:2:0
-WDR Event
-c:0302a9,c:0402a9,f:0001,p:Astra Radio
-00aa:00c00000:0007:0085:2:0
-ANTENNE BAYERN
-c:010160,c:030160,f:0001,p:Astra Radio
 6d6d:00c00000:0437:0001:2:0
 Dlf
 c:01032a,c:03032a,f:0001,p:Astra Radio
@@ -5756,21 +5594,102 @@ c:010180,c:030180,f:0001,p:Astra Radio
 316e:00c00000:0459:0001:2:0
 ffn
 c:010162,c:030162,f:0001,p:Astra Radio
+28f9:00c00000:0425:0001:2:0
+Fritz
+c:0303b7,c:0403b7,f:0001,p:Astra Radio
 3176:00c00000:0459:0001:2:0
 harmony.fm
 c:01040c,c:02040d,c:03040c,f:0001,p:Astra Radio
 3174:00c00000:0459:0001:2:0
 HIT RADIO FFH
 c:010400,c:020401,c:030400,f:0001,p:Astra Radio
+28e1:00c00000:0425:0001:2:0
+hr1
+c:0302bd,c:0402bd,f:0001,p:Astra Radio
+28e2:00c00000:0425:0001:2:0
+hr2
+c:0302c7,c:0402c7,f:0001,p:Astra Radio
+28e3:00c00000:0425:0001:2:0
+hr3
+c:0302d1,c:0402d1,f:0001,p:Astra Radio
+28e4:00c00000:0425:0001:2:0
+hr4
+c:0302db,c:0402db,f:0001,p:Astra Radio
+28e6:00c00000:0425:0001:2:0
+hr-iNFO
+c:0302ef,c:0402ef,f:0001,p:Astra Radio
 00b1:00c00000:0005:0085:2:0
 JAM FM
 c:010210,c:030210,f:0001,p:Astra Radio
 00ad:00c00000:0005:0085:2:0
 Klassik Radio
 c:010150,c:030150,f:0001,p:Astra Radio
+28f0:00c00000:0425:0001:2:0
+MDR AKTUELL
+c:03035d,c:04035d,f:0001,p:Astra Radio
+28ee:00c00000:0425:0001:2:0
+MDR JUMP
+c:030349,c:040349,f:0001,p:Astra Radio
+28f1:00c00000:0425:0001:2:0
+MDR KLASSIK
+c:030367,c:040367,f:0001,p:Astra Radio
+28ed:00c00000:0425:0001:2:0
+MDR KULTUR
+c:03033f,c:04033f,f:0001,p:Astra Radio
+28ea:00c00000:0425:0001:2:0
+MDR SACHSEN DD
+c:030321,c:040321,f:0001,p:Astra Radio
+28eb:00c00000:0425:0001:2:0
+MDR S-ANHALT MD
+c:03032b,c:04032b,f:0001,p:Astra Radio
+28ef:00c00000:0425:0001:2:0
+MDR SPUTNIK
+c:030353,c:040353,f:0001,p:Astra Radio
+28ec:00c00000:0425:0001:2:0
+MDR THÜR Mitte-W
+c:030335,c:040335,f:0001,p:Astra Radio
+28b3:00c00000:040f:0001:2:0
+NDR 1 Nieders. HAN
+c:03010f,c:04010f,f:0001,p:Astra Radio
+28b2:00c00000:040f:0001:2:0
+NDR 1 Radio MV SN
+c:030105,c:040105,f:0001,p:Astra Radio
+28ac:00c00000:040f:0001:2:0
+NDR 2 NDS
+c:0300c9,c:0400c9,f:0001,p:Astra Radio
+28b0:00c00000:040f:0001:2:0
+NDR 90,3
+c:0300f1,c:0400f1,f:0001,p:Astra Radio
+28b5:00c00000:040f:0001:2:0
+NDR Blue
+c:030123,c:040123,f:0001,p:Astra Radio
+28ae:00c00000:040f:0001:2:0
+NDR Info NDS
+c:0300dd,c:0400dd,f:0001,p:Astra Radio
+28b4:00c00000:040f:0001:2:0
+NDR Info Spezial
+c:030119,c:040119,f:0001,p:Astra Radio
+28ad:00c00000:040f:0001:2:0
+NDR Kultur
+c:0300d5,c:0400d5,f:0001,p:Astra Radio
+28b6:00c00000:040f:0001:2:0
+NDR Schlager
+c:030128,c:040128,f:0001,p:Astra Radio
+28b1:00c00000:040f:0001:2:0
+NDR1 Welle Nord KI
+c:0300fb,c:0400fb,f:0001,p:Astra Radio
+315a:00c00000:0459:0001:2:0
+nice
+c:01014e,c:0301b2,f:0001,p:Astra Radio
+28af:00c00000:040f:0001:2:0
+N-JOY
+c:0300e7,c:0400e7,f:0001,p:Astra Radio
 3175:00c00000:0459:0001:2:0
 planet radio
 c:010406,c:020407,c:030406,f:0001,p:Astra Radio
+28a7:00c00000:040f:0001:2:0
+PULS
+c:0300ab,c:0400ab,f:0001,p:Astra Radio
 3173:00c00000:0459:0001:2:0
 Radio Gloria
 c:010167,c:030167,f:0001,p:Astra Radio
@@ -5789,6 +5708,18 @@ c:0101b8,c:0301b8,f:0001,p:Astra Radio
 316f:00c00000:0459:0001:2:0
 Radio Paloma
 c:010163,c:030163,f:0001,p:Astra Radio
+28f8:00c00000:0425:0001:2:0
+radioeins
+c:0303ad,c:0403ad,f:0001,p:Astra Radio
+28f7:00c00000:0425:0001:2:0
+rbb 88.8
+c:0303a3,c:0403a3,f:0001,p:Astra Radio
+28f4:00c00000:0425:0001:2:0
+rbb24 Inforadio
+c:030385,c:040385,f:0001,p:Astra Radio
+28f5:00c00000:0425:0001:2:0
+rbbKultur
+c:03038f,c:04038f,f:0001,p:Astra Radio
 00a0:00c00000:0007:0085:2:0
 ROCK ANTENNE
 c:010130,c:030130,f:0001,p:Astra Radio
@@ -5796,14 +5727,62 @@ c:010130,c:030130,f:0001,p:Astra Radio
 RTL RADIO
 c:011efc,c:031efc,f:0001,p:Astra Radio
 3172:00c00000:0459:0001:2:0
-Schlager Radio B2
+Schlager Radio
 c:01016c,c:03016c,f:0001,p:Astra Radio
+28c0:00c00000:040f:0001:2:0
+SR 1 Europawelle
+c:030191,c:040191,f:0001,p:Astra Radio
+28c1:00c00000:040f:0001:2:0
+SR 2 KulturRadio
+c:03019b,c:04019b,f:0001,p:Astra Radio
+28c2:00c00000:040f:0001:2:0
+SR 3 Saarlandwelle
+c:0301a5,c:0401a5,f:0001,p:Astra Radio
 00a9:00c00000:0007:0085:2:0
 sunshine live
 c:010150,c:030150,f:0001,p:Astra Radio
+28cf:00c00000:040f:0001:2:0
+SWR Aktuell
+c:03023b,c:04023b,f:0001,p:Astra Radio
+28c8:00c00000:040f:0001:2:0
+SWR1 BW
+c:0301f5,c:0401f5,f:0001,p:Astra Radio
+28c9:00c00000:040f:0001:2:0
+SWR1 RP
+c:0301ff,c:0401ff,f:0001,p:Astra Radio
+28ca:00c00000:040f:0001:2:0
+SWR2
+c:030209,c:040209,f:0001,p:Astra Radio
+28cb:00c00000:040f:0001:2:0
+SWR3
+c:030213,c:040213,f:0001,p:Astra Radio
+28cc:00c00000:040f:0001:2:0
+SWR4 BW
+c:03021d,c:04021d,f:0001,p:Astra Radio
+28cd:00c00000:040f:0001:2:0
+SWR4 RP
+c:030227,c:040227,f:0001,p:Astra Radio
 2f3b:00c00000:0441:0001:2:0
 TOGGO Radio
 c:0101f5,c:0301f5,f:0001,p:Astra Radio
+28d4:00c00000:040f:0001:2:0
+WDR 2 Rheinland
+c:030263,c:040263,f:0001,p:Astra Radio
+28d5:00c00000:040f:0001:2:0
+WDR 3
+c:03026d,c:04026d,f:0001,p:Astra Radio
+28d6:00c00000:040f:0001:2:0
+WDR 4
+c:030277,c:040277,f:0001,p:Astra Radio
+28d7:00c00000:040f:0001:2:0
+WDR 5
+c:030281,c:040281,f:0001,p:Astra Radio
+28db:00c00000:040f:0001:2:0
+WDR Event
+c:0302a9,c:0402a9,f:0001,p:Astra Radio
+28e5:00c00000:0425:0001:2:0
+YOU FM
+c:0302e5,c:0402e5,f:0001,p:Astra Radio
 3341:00c00000:045b:0001:2:0
 OE1
 c:0101a5,c:0301a5,f:0001,p:ORF
@@ -5855,30 +5834,12 @@ c:0100a3,c:0300a3,f:0001,p:TV Vlaanderen,C:000e
 1091:00c00000:03ee:0001:2:0
 Radio Maryja
 c:010025,c:030021,f:0001,p:Astra Radio
-0001:00c00000:0422:0001:2:0
-Cadena Dial
-c:010100,f:0001,p:Astra Radio
-0006:00c00000:0422:0001:2:0
-Cadena SER
-c:010106,f:0001,p:Astra Radio
-0005:00c00000:0422:0001:2:0
-Los 40
-c:010104,f:0001,p:Astra Radio
-0002:00c00000:0422:0001:2:0
-Los 40 Classic
-c:010101,f:0001,p:Astra Radio
-0004:00c00000:0422:0001:2:0
-Los 40 Urban
-c:010103,f:0001,p:Astra Radio
 18f2:00c00000:03f4:0001:2:0
 RADIO GALEGA
 c:01070a,c:03070a,f:0001,p:Astra Radio
 18f3:00c00000:03f4:0001:2:0
 RADIO GALEGA MUSICA
 c:01076e,c:03076e,f:0001,p:Astra Radio
-0003:00c00000:0422:0001:2:0
-Radiolé 
-c:010102,f:0001,p:Astra Radio
 23b7:00c00000:0446:0001:2:0
 BBC ARABIC
 c:01079a,c:03079a,f:0001,p:CS France
@@ -6191,9 +6152,6 @@ c:010660,c:030660,f:0001,p:Hotbird Radio
 00d4:00820000:0065:0001:2:0
 Ozodlik Radiosi 212
 c:010532,c:030532,f:0001,p:Hotbird Radio
-032a:00820000:0099:013e:2:0
-Radio Belarus International
-c:01033e,c:03033e,f:0001,p:Hotbird Radio
 00da:00820000:0065:0001:2:0
 Radio Crimea.Realities 218
 c:010598,c:030598,f:0001,p:Hotbird Radio
