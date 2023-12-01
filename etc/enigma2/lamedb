@@ -255,6 +255,9 @@ transponders
 00c00000:0416:0001
 	s 11156000:22000000:1:4:192:0:0
 /
+00c00000:0009:0085
+	s 11171000:22000000:0:3:192:0:0:1:2:0:2
+/
 00c00000:0418:0001
 	s 11185000:22000000:1:2:192:0:0:1:2:0:2
 /
@@ -321,9 +324,6 @@ transponders
 00c00000:0408:0001
 	s 11686000:22000000:1:4:192:0:0
 /
-00c00000:0003:0085
-	s 11719000:27500000:0:9:192:0:0:1:1:0:2
-/
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:0:0
 /
@@ -368,9 +368,6 @@ transponders
 /
 00c00000:043a:0001
 	s 12051000:27500000:1:3:192:0:0
-/
-00c00000:0008:0085
-	s 12070000:27500000:0:9:192:0:0:1:1:0:2
 /
 00c00000:043c:0001
 	s 12090000:29700000:1:4:192:0:0:1:1:0:2
@@ -800,7 +797,7 @@ c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
 006b:00c00000:000c:0085:25:0
 Sky Cinema Best Of HD
 c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-0074:00c00000:0003:0085:25:0
+0074:00c00000:0009:0085:25:0
 Sky Cinema Action HD
 c:0002ff,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
 000b:00c00000:0004:0085:25:0
@@ -809,9 +806,9 @@ c:0004ff,c:020020,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
 006f:00c00000:000d:0085:25:0
 Sky Cinema Special HD
 c:0000ff,c:020020,c:0300ff,c:040103,f:0001,p:Sky Deutschland,C:0080
-0008:00c00000:0003:0085:25:0
+0008:00c00000:0009:0085:25:0
 Sky Cinema Fun HD
-c:0003ff,c:010400,c:020020,c:0303ff,f:0001,p:Sky Deutschland,C:0080
+c:0003ff,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
 0204:00c00000:0006:0085:25:0
 Sky Cinema Classics HD
 c:0006ff,c:020020,c:0306ff,c:040703,f:0001,p:Sky Deutschland,C:0080
@@ -845,13 +842,13 @@ c:0007ff,c:010800,c:0307ff,f:0001,p:Sky Deutschland,C:0080
 008c:00c00000:0004:0085:25:0
 Warner TV Film HD
 c:000aff,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
-007b:00c00000:0008:0085:25:0
+007b:00c00000:0010:0085:25:0
 Warner TV Serie HD
 c:0004ff,c:0304ff,c:040503,f:0001,p:Sky Deutschland,C:0080
 0088:00c00000:000b:0085:25:0
 Warner TV Comedy HD
 c:000eff,c:030eff,c:040f03,f:0001,p:Sky Deutschland,C:0080
-0065:00c00000:0008:0085:25:0
+0065:00c00000:0010:0085:25:0
 Universal TV HD
 c:0005ff,c:0305ff,c:040603,f:0001,p:Sky Deutschland,C:0080
 0206:00c00000:0002:0085:25:0
@@ -887,7 +884,7 @@ c:0001ff,c:020020,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
 0071:00c00000:000b:0085:25:0
 History HD
 c:0002ff,c:020020,c:0302ff,c:040303,f:0001,p:Sky Deutschland,C:0080
-0085:00c00000:0003:0085:25:0
+0085:00c00000:0009:0085:25:0
 Beate Uhse HD
 c:0007ff,c:0307ff,c:040803,f:0001,p:Sky Deutschland,C:0080
 006c:00c00000:000c:0085:25:0
@@ -899,9 +896,9 @@ c:0002ff,c:020020,c:0302ff,c:040302,f:0001,p:Sky Deutschland,C:0080
 008d:00c00000:0002:0085:25:0
 Sky Sport Mix HD
 c:0000ff,c:0300ff,c:040102,f:0001,p:Sky Deutschland,C:0080
-0011:00c00000:0003:0085:25:0
+0011:00c00000:0009:0085:25:0
 Sky Sport F1 HD
-c:0006ff,c:010702,c:020020,c:0306ff,f:0001,p:Sky Deutschland,C:0080
+c:0006ff,c:020020,c:0306ff,c:040702,f:0001,p:Sky Deutschland,C:0080
 0072:00c00000:000d:0085:25:0
 Sky Sport Tennis HD
 c:0003ff,c:020020,c:0303ff,c:040402,f:0001,p:Sky Deutschland,C:0080
@@ -920,18 +917,18 @@ c:0018ff,c:020020,c:0318ff,c:041902,f:0001,p:Sky Deutschland,C:0080
 0120:00c00000:000c:0085:25:0
 Sky Sport 3 HD
 c:0008ff,c:020020,c:0308ff,c:040902,f:0001,p:Sky Deutschland,C:0080
-012a:00c00000:0008:0085:25:0
+012a:00c00000:0004:0085:25:0
 Sky Sport 4 HD
-c:0009ff,c:0309ff,c:040a02,f:0001,p:Sky Deutschland,C:0080
+c:0001ff,c:0301ff,c:040202,f:0001,p:Sky Deutschland,C:0080
 0134:00c00000:0004:0085:25:0
 Sky Sport 5 HD
 c:000bff,c:020020,c:030bff,c:040c02,f:0001,p:Sky Deutschland,C:0080
-013e:00c00000:0003:0085:25:0
+013e:00c00000:0009:0085:25:0
 Sky Sport 6 HD
-c:001aff,c:020020,c:031aff,c:041a02,f:0001,p:Sky Deutschland,C:0080
-0148:00c00000:0003:0085:25:0
+c:001aff,c:031aff,c:041b02,f:0001,p:Sky Deutschland,C:0080
+0148:00c00000:0009:0085:25:0
 Sky Sport 7 HD
-c:0011ff,c:020020,c:0311ff,c:041202,f:0001,p:Sky Deutschland,C:0080
+c:0011ff,c:0311ff,c:041202,f:0001,p:Sky Deutschland,C:0080
 0152:00c00000:0010:0085:25:0
 Sky Sport 8 HD
 c:000dff,c:020020,c:030dff,c:040e02,f:0001,p:Sky Deutschland,C:0080
@@ -953,18 +950,18 @@ c:0017ff,c:020020,c:0317ff,c:041802,f:0001,p:Sky Deutschland,C:0080
 011f:00c00000:000c:0085:25:0
 Sky Bundesliga 3 HD
 c:0007ff,c:010802,c:020020,c:0307ff,c:040802,f:0001,p:Sky Deutschland,C:0080
-0129:00c00000:0008:0085:25:0
+0129:00c00000:0004:0085:25:0
 Sky Bundesliga 4 HD
-c:0000ff,c:020020,c:0300ff,c:040102,f:0001,p:Sky Deutschland,C:0080
+c:0000ff,c:010102,c:0300ff,f:0001,p:Sky Deutschland,C:0080
 0133:00c00000:0004:0085:25:0
 Sky Bundesliga 5 HD
 c:0003ff,c:020020,c:0303ff,c:040402,f:0001,p:Sky Deutschland,C:0080
-013d:00c00000:0003:0085:25:0
+013d:00c00000:0009:0085:25:0
 Sky Bundesliga 6 HD
-c:0019ff,c:020020,c:0319ff,c:041a02,f:0001,p:Sky Deutschland,C:0080
-0147:00c00000:0003:0085:25:0
+c:0019ff,c:0319ff,c:041a02,f:0001,p:Sky Deutschland,C:0080
+0147:00c00000:0009:0085:25:0
 Sky Bundesliga 7 HD
-c:0010ff,c:020020,c:0310ff,c:041102,f:0001,p:Sky Deutschland,C:0080
+c:0010ff,c:0310ff,c:041102,f:0001,p:Sky Deutschland
 0151:00c00000:0010:0085:25:0
 Sky Bundesliga 8 HD
 c:0009ff,c:020020,c:0309ff,c:040a02,f:0001,p:Sky Deutschland,C:0080
@@ -974,16 +971,16 @@ c:0013ff,c:0313ff,c:041402,f:0001,p:Sky Deutschland,C:0080
 010f:00c00000:000b:0085:25:0
 Sky Bundesliga 10 HD
 c:0001ff,c:0301ff,c:040203,f:0001,p:Sky Deutschland,C:0080
-0084:00c00000:0008:0085:25:0
+0084:00c00000:0009:0085:25:0
 DAZN 1 HD
 c:0009ff,c:0309ff,c:040a03,f:0001,p:Sky Deutschland,C:0080
-007a:00c00000:0008:0085:25:0
+007a:00c00000:0009:0085:25:0
 DAZN 2 HD
-c:0003ff,c:0303ff,c:040403,f:0001,p:Sky Deutschland,C:0080
-008f:00c00000:0008:0085:25:0
+c:0004ff,c:010503,c:0304ff,f:0001,p:Sky Deutschland,C:0080
+008f:00c00000:0004:0085:25:0
 Sky Sport Austria 1 HD
-c:000aff,c:030aff,c:040b03,f:0001,p:Sky Deutschland,C:0080
-0149:00c00000:0008:0085:25:0
+c:000cff,c:030cff,c:040d02,f:0001,p:Sky Deutschland,C:0080
+0149:00c00000:000d:0085:25:0
 Sky Sport Austria 2 HD
 c:001cff,c:031cff,c:040c02,f:0001,p:Sky Deutschland,C:0080
 0153:00c00000:0002:0085:25:0
@@ -992,9 +989,9 @@ c:000cff,c:030cff,c:040d02,f:0001,p:Sky Deutschland,C:0080
 0103:00c00000:000b:0085:25:0
 Sky Sport Austria 4 HD
 c:0005ff,c:020020,c:0305ff,c:040602,f:0001,p:Sky Deutschland,C:0080
-0146:00c00000:0003:0085:25:0
+0146:00c00000:0009:0085:25:0
 Sky Sport Austria 5 HD
-c:0013ff,c:020020,c:0313ff,c:041402,f:0001,p:Sky Deutschland,C:0080
+c:0013ff,c:0313ff,f:0001,p:Sky Deutschland,C:0080
 0156:00c00000:0010:0085:25:0
 Sky Sport Austria 6 HD
 c:0001ff,c:0301ff,c:040202,f:0001,p:Sky Deutschland,C:0080
